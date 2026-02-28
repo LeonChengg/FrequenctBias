@@ -1,0 +1,10 @@
+{
+  "EG_entailment_train": {
+    "file_name": "EG_entailment_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
