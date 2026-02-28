@@ -20,6 +20,7 @@ echo "  GPUs  : $GPUS"
 echo "========================================"
 
 export PYTHONPATH="$LLAMA_FACTORY_DIR/src:$PYTHONPATH"
+export DISABLE_VERSION_CHECK=1   # transformers 4.57 > LLaMA Factory's cap of 4.52; functionally compatible
 
 NUM_GPUS=$(echo "$GPUS" | tr ',' '\n' | wc -l)
 
