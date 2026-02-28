@@ -1,6 +1,6 @@
 # FrequencyBias: Comparing Post-Training Methods for Entailment Judgement
 
-This project studies how different **post-training methods** affect an LLM's ability to judge textual entailment — specifically, whether frequency bias in pre-training data influences entailment predictions. We use **Llama-3.2-1B-Instruct** as the base model and compare Supervised Fine-Tuning (SFT) against Reinforcement Learning (GRPO) on entailment datasets.
+This project studies how different **post-training methods** affect an LLM's ability to judge textual entailment — specifically, whether frequency bias in pre-training data influences entailment predictions. We use **Llama-3.2-1B-Instruct** as the base model and compare three post-training methods: Supervised Fine-Tuning (SFT), Reinforcement Learning (GRPO), and Knowledge Distillation (KD).
 
 ---
 
@@ -113,16 +113,60 @@ Checkpoints saved to `rl/saves/llama3.2-1b-grpo-EG/`.
 
 ---
 
+### 3. Knowledge Distillation (KD) — `distill/`
+
+**Token-level forward KL distillation** from a larger teacher model. The student learns to match the teacher's full output distribution over the vocabulary at each response token — richer than SFT's hard labels.
+
+**Teacher:** `Llama-3.1-8B-Instruct` (frozen)
+**Student:** `Llama-3.2-1B-Instruct` + LoRA (trained)
+Both share the same 131,072-token vocabulary, so per-token KL is directly applicable.
+
+**Loss (Hinton et al., 2015):**
+```
+L = α · KD(T) + (1 − α) · CE
+KD(T) = KL( p_teacher(T) ‖ p_student(T) ) · T²
+```
+- `KD(T)`: forward KL with temperature `T` to soften distributions, scaled by `T²` to keep gradient magnitude stable
+- `CE`: standard cross-entropy against the gold label, for grounding
+- Both losses applied **only to response tokens** (not the prompt)
+
+**Setup:**
+```bash
+bash distill/run_distill.sh 0          # single GPU
+
+# Tune distillation strength
+bash distill/run_distill.sh 0 --temperature 4.0 --alpha 0.7
+bash distill/run_distill.sh 0 --alpha 1.0   # pure KD, no CE loss
+```
+
+Key settings ([distill_train.py](distill/distill_train.py)):
+
+| Parameter | Value |
+|-----------|-------|
+| Teacher | Llama-3.1-8B-Instruct |
+| LoRA rank | 16 |
+| Temperature (T) | 2.0 |
+| α (KD weight) | 0.9 |
+| Learning rate | 1e-4 |
+| Epochs | 3 |
+| Effective batch | 32 |
+
+Checkpoints saved to `distill/saves/llama3.2-1b-distill-EG/`.
+
+---
+
 ## Method Comparison
 
-| | SFT | GRPO |
-|---|---|---|
-| Supervision | Ground-truth label (cross-entropy) | Rule-based reward (±1) |
-| Reference model | None | Base model (LoRA disabled) |
-| Exploration | None | G=4 samples per prompt |
-| Reward model | Not needed | Not needed |
-| Learning rate | 2e-4 | 5e-7 |
-| Package | LLaMA Factory | transformers + peft |
+| | SFT | GRPO | Distillation |
+|---|---|---|---|
+| Supervision signal | Hard label (CE) | Rule-based reward (±1) | Teacher distribution (KL) |
+| Teacher model | None | None | Llama-3.1-8B (frozen) |
+| Reference model | None | Base model (LoRA off) | None |
+| Exploration | None | G=4 samples/prompt | None |
+| Reward model | Not needed | Not needed | Not needed |
+| Learning rate | 2e-4 | 5e-7 | 1e-4 |
+| Conda env | `tuneEG` | `tuneEG` | `distll` |
+| Package | LLaMA Factory | transformers + peft | transformers + peft |
 
 ---
 
@@ -147,20 +191,25 @@ FrequenctBias/
 │       ├── EG_entailment_train.json # converted dataset
 │       └── dataset_info.json        # LLaMA Factory registry
 │
-└── rl/                              # GRPO (self-contained)
-    ├── grpo_train.py                # GRPO training script
-    └── run_grpo.sh                  # launch script
+├── rl/                              # GRPO reinforcement learning
+│   ├── grpo_train.py                # GRPO training script
+│   └── run_grpo.sh                  # launch script
+│
+└── distill/                         # Knowledge distillation (8B → 1B)
+    ├── distill_train.py             # KD training script
+    └── run_distill.sh               # launch script
 ```
 
 ---
 
 ## Environment
 
-```bash
-conda activate tuneEG
-# Key packages: transformers, peft, accelerate, trl, vllm
-```
+| Method | Conda env | Key packages |
+|--------|-----------|--------------|
+| SFT | `tuneEG` | transformers 4.57, peft 0.11, trl 0.9.4, accelerate 0.31 |
+| GRPO | `tuneEG` | transformers 4.57, peft 0.11, accelerate 0.31 |
+| Distillation | `distll` | transformers 4.56, peft 0.17, accelerate 1.10, torch 2.8 |
 
-- **Base model:** `/mnt/raid0hdd1/liang/models/Llama-3.2-1B-Instruct`
-- **LLaMA Factory:** `/mnt/nvme0n1/luzhan/finetune-qwen/LLaMA-Factory` (v0.9.3)
-- **Python:** `/home/liang/miniconda3/envs/tuneEG/bin/python`
+- **Student / base model:** `/mnt/raid0hdd1/liang/models/Llama-3.2-1B-Instruct`
+- **Teacher model (KD):** `/mnt/raid0hdd1/liang/models/Llama-3.1-8B-Instruct`
+- **LLaMA Factory (SFT):** `/mnt/nvme0n1/luzhan/finetune-qwen/LLaMA-Factory` (v0.9.3)
