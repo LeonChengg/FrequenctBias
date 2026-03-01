@@ -192,9 +192,54 @@ def get_true_false_scores(model, tokenizer, prompts: list[str], batch_size: int,
     return scores
 
 
+@torch.no_grad()
+def get_norm_scores(model, tokenizer, prompts: list[str], batch_size: int, device) -> list[float]:
+    """
+    Compute S_ent for each prompt using:
+
+        S_ent = 0.5 + 0.5 * I[tok=True]  * S_tok
+                    - 0.5 * I[tok=False] * S_tok
+
+    where tok is the argmax of the full vocabulary distribution and
+    S_tok = softmax(full_logits)[tok_id] is its raw probability.
+
+    If the argmax token is neither "True" nor "False" (parse failure),
+    S_ent = 0.5 (maximum uncertainty, contributes nothing to AUC).
+    """
+    true_id  = tokenizer.encode("True",  add_special_tokens=False)[0]
+    false_id = tokenizer.encode("False", add_special_tokens=False)[0]
+
+    s_ent_list = []
+    for i in range(0, len(prompts), batch_size):
+        batch = prompts[i : i + batch_size]
+        enc = tokenizer(
+            batch, return_tensors="pt", padding=True,
+            truncation=True, max_length=256,
+        ).to(device)
+
+        outputs     = model(**enc)
+        last_logits = outputs.logits[:, -1, :].float()      # (B, V)
+        full_probs  = torch.softmax(last_logits, dim=-1)    # (B, V)
+        argmax_ids  = last_logits.argmax(dim=-1)            # (B,)
+
+        for b in range(last_logits.shape[0]):
+            tok_id = argmax_ids[b].item()
+            s_tok  = full_probs[b, tok_id].item()
+            if tok_id == true_id:
+                s_ent = 0.5 + 0.5 * s_tok
+            elif tok_id == false_id:
+                s_ent = 0.5 - 0.5 * s_tok
+            else:
+                s_ent = 0.5   # parse failure → maximum uncertainty
+            s_ent_list.append(s_ent)
+
+    return s_ent_list
+
+
 # ── Metrics ──────────────────────────────────────────────────────────────────
 
-def compute_metrics(labels: list[bool], preds: list[Optional[bool]], scores: list[float] = None) -> dict:
+def compute_metrics(labels: list[bool], preds: list[Optional[bool]], scores: list[float] = None,
+                    norm_scores: list[float] = None) -> dict:
     """Compute accuracy, P/R/F1, and parse-fail rate."""
     total      = len(labels)
     parse_fail = sum(1 for p in preds if p is None)
@@ -210,13 +255,23 @@ def compute_metrics(labels: list[bool], preds: list[Optional[bool]], scores: lis
     acc = accuracy_score(y_true, y_pred)
     prec, rec, f1, _ = precision_recall_fscore_support(y_true, y_pred, average="binary", zero_division=0)
 
-    # AUC uses the full P(True) scores (not parse-filtered) against all labels
+    int_labels = [int(l) for l in labels]
+
+    # AUC: P(True) from softmax over {True, False} tokens
     auc = None
     if scores is not None:
         try:
-            auc = round(roc_auc_score([int(l) for l in labels], scores), 4)
+            auc = round(roc_auc_score(int_labels, scores), 4)
         except Exception:
             auc = None
+
+    # AUC_norm: S_ent from the full-vocabulary probability formula
+    auc_norm = None
+    if norm_scores is not None:
+        try:
+            auc_norm = round(roc_auc_score(int_labels, norm_scores), 4)
+        except Exception:
+            auc_norm = None
 
     return {
         "accuracy"       : round(acc,  4),
@@ -224,6 +279,7 @@ def compute_metrics(labels: list[bool], preds: list[Optional[bool]], scores: lis
         "recall"         : round(float(rec),  4),
         "f1"             : round(float(f1),   4),
         "auc"            : auc,
+        "auc_norm"       : auc_norm,
         "parse_fail"     : parse_fail,
         "parse_fail_rate": round(parse_fail / total, 4),
         "total"          : total,
@@ -290,8 +346,10 @@ def evaluate_model(
     preds     = [parse_response(r) for r in responses]
 
     logger.info(f"[{name}] Computing P(True) scores for AUC...")
-    scores  = get_true_false_scores(model, tokenizer, all_prompts, batch_size, device)
-    metrics = compute_metrics(all_labels, preds, scores)
+    scores      = get_true_false_scores(model, tokenizer, all_prompts, batch_size, device)
+    logger.info(f"[{name}] Computing S_ent scores for AUC_norm...")
+    norm_scores = get_norm_scores(model, tokenizer, all_prompts, batch_size, device)
+    metrics     = compute_metrics(all_labels, preds, scores, norm_scores)
 
     neg_metrics = {}
     if negation:
@@ -306,9 +364,10 @@ def evaluate_model(
     os.makedirs(output_dir, exist_ok=True)
     pred_path = os.path.join(output_dir, f"{name}_predictions.jsonl")
     with open(pred_path, "w") as f:
-        for i, (label, resp, pred, score) in enumerate(zip(all_labels, responses, preds, scores)):
+        for i, (label, resp, pred, score, ns) in enumerate(
+                zip(all_labels, responses, preds, scores, norm_scores)):
             row = {"idx": i, "label": label, "response": resp.strip(), "pred": pred,
-                   "p_true": round(score, 6)}
+                   "p_true": round(score, 6), "s_ent": round(ns, 6)}
             if negation and i < len(neg_responses):
                 row["neg_response"] = neg_responses[i].strip()
                 row["neg_pred"]     = neg_preds[i]
@@ -325,7 +384,7 @@ def evaluate_model(
 # ── Pretty print ─────────────────────────────────────────────────────────────
 
 def print_results(results: list[dict], negation: bool):
-    cols = ["model", "accuracy", "auc", "f1", "precision", "recall", "parse_fail_rate"]
+    cols = ["model", "accuracy", "auc", "auc_norm", "f1", "precision", "recall", "parse_fail_rate"]
     if negation:
         cols += ["negation_flip_rate", "negation_consistent_rate"]
 
@@ -432,7 +491,8 @@ def main():
         )
         all_results.append(result)
         logger.info(f"[{name}] Accuracy={result['accuracy']:.4f}  AUC={result['auc']}  "
-                    f"F1={result['f1']:.4f}  Parse-fail={result['parse_fail_rate']:.4f}")
+                    f"AUC_norm={result['auc_norm']}  F1={result['f1']:.4f}  "
+                    f"Parse-fail={result['parse_fail_rate']:.4f}")
 
     if all_results:
         print_results(all_results, args.negation)

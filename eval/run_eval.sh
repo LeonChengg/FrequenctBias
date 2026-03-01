@@ -8,6 +8,22 @@
 #   distill   – Distillation LoRA checkpoint
 #   all       – all four above
 #
+# Metrics reported:
+#   accuracy       – classification accuracy on parsed responses
+#   auc            – ROC-AUC using P(True) from softmax over {True, False} tokens
+#   auc_norm       – ROC-AUC using S_ent score (full-vocab probability formula):
+#                      S_ent = 0.5 + 0.5·S_tok  if first token = "True"
+#                      S_ent = 0.5 − 0.5·S_tok  if first token = "False"
+#                      S_ent = 0.5               if parse failure
+#   f1             – F1 score (binary)
+#   precision      – Precision
+#   recall         – Recall
+#   parse_fail_rate– Fraction of responses that are neither "True" nor "False"
+#
+# Flags:
+#   --negation     Also evaluate on negated premise/hypothesis; adds
+#                  negation_flip_rate and negation_consistent_rate columns
+#
 # Usage:
 #   bash run_eval.sh <GPU> <MODEL> [<MODEL> ...] [--negation]
 #
