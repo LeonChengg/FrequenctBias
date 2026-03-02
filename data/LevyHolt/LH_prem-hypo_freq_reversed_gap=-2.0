@@ -1,0 +1,4142 @@
+[
+    {
+        "hypo": "almonds are high in calcium.",
+        "prem": "almonds contains calcium.",
+        "h_pred": "are high in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Almonds do not contain calcium.",
+        "neg_hypo": "Almonds are not high in calcium.",
+        "score": 44.910000000000004
+    },
+    {
+        "hypo": "cent comes from canada.",
+        "prem": "cent is accepted in canada.",
+        "h_pred": "comes from",
+        "p_pred": "is accepted in",
+        "label": false,
+        "neg_prem": "Cent is not accepted in Canada.",
+        "neg_hypo": "Cent does not come from Canada.",
+        "score": 17.049999999999997
+    },
+    {
+        "hypo": "ferdinand was born at versailles.",
+        "prem": "ferdinand lived in versailles.",
+        "h_pred": "was born at",
+        "p_pred": "lived in",
+        "label": false,
+        "neg_prem": "Ferdinand did not live in Versailles.",
+        "neg_hypo": "Ferdinand was not born at Versailles.",
+        "score": 4.249999999999998
+    },
+    {
+        "hypo": "jefferson traveled to paris.",
+        "prem": "jefferson reached paris.",
+        "h_pred": "traveled to",
+        "p_pred": "reached",
+        "label": true,
+        "neg_prem": "Jefferson did not reach Paris.",
+        "neg_hypo": "Jefferson did not travel to Paris.",
+        "score": -5.93
+    },
+    {
+        "hypo": "geology is the study of the earth.",
+        "prem": "geology studies the earth.",
+        "h_pred": "is study of",
+        "p_pred": "studies",
+        "label": false,
+        "neg_prem": "Geology does not study the earth.",
+        "neg_hypo": "Geology is not the study of the earth.",
+        "score": 8.25
+    },
+    {
+        "hypo": "cleopatra ruled egypt.",
+        "prem": "cleopatra was the queen of egypt.",
+        "h_pred": "ruled",
+        "p_pred": "was the queen of",
+        "label": true,
+        "neg_prem": "Cleopatra was not the queen of Egypt.",
+        "neg_hypo": "Cleopatra did not rule Egypt.",
+        "score": -5.140000000000001
+    },
+    {
+        "hypo": "opium is required on account of the pain.",
+        "prem": "opium relieves pain.",
+        "h_pred": "is required on account of the",
+        "p_pred": "relieves",
+        "label": false,
+        "neg_prem": "Opium does not relieve pain.",
+        "neg_hypo": "Opium is not required on account of the pain.",
+        "score": 6.1824
+    },
+    {
+        "hypo": "the trumpeter is covered in feathers.",
+        "prem": "the trumpeter has a tuft of feathers.",
+        "h_pred": "is covered in",
+        "p_pred": "has a tuft of",
+        "label": false,
+        "neg_prem": "The trumpeter does not have a tuft of feathers.",
+        "neg_hypo": "The trumpeter is not covered in feathers.",
+        "score": 6.6637
+    },
+    {
+        "hypo": "the hawks are esteemed in england.",
+        "prem": "the hawks represents england.",
+        "h_pred": "are esteemed in",
+        "p_pred": "represents",
+        "label": true,
+        "neg_prem": "The hawks do not represent England.",
+        "neg_hypo": "The hawks are not esteemed in England.",
+        "score": -2.8299999999999996
+    },
+    {
+        "hypo": "the heaths are said to contain iron.",
+        "prem": "the heaths is rich with iron.",
+        "h_pred": "are said to contain",
+        "p_pred": "is rich with",
+        "label": true,
+        "neg_prem": "The heaths is not rich with iron.",
+        "neg_hypo": "The heaths do not contain iron.",
+        "score": -4.93
+    },
+    {
+        "hypo": "irons is made of silicon.",
+        "prem": "irons contain silicon.",
+        "h_pred": "is made of",
+        "p_pred": "contain",
+        "label": false,
+        "neg_prem": "Irons do not contain silicon.",
+        "neg_hypo": "Irons is not made of silicon.",
+        "score": 72.14
+    },
+    {
+        "hypo": "the anterior pituitary secretes a number of hormones.",
+        "prem": "the anterior pituitary secretes hormones.",
+        "h_pred": "a number of",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "The anterior pituitary does not secrete hormones.",
+        "neg_hypo": "The anterior pituitary does not secrete a number of hormones.",
+        "score": 40.3
+    },
+    {
+        "hypo": "a durable denture can be made of that metal.",
+        "prem": "a durable denture is made of metal.",
+        "h_pred": "can be that",
+        "p_pred": "is",
+        "label": true,
+        "neg_prem": "a durable denture is not made of metal.",
+        "neg_hypo": "a durable denture can not be made of that metal.",
+        "score": -1005.0
+    },
+    {
+        "hypo": "herakles was the son of zeus.",
+        "prem": "herakles is the offspring of zeus.",
+        "h_pred": "was son",
+        "p_pred": "is offspring",
+        "label": false,
+        "neg_prem": "Herakles is not the offspring of Zeus.",
+        "neg_hypo": "Heracles was not the son of Zeus.",
+        "score": 17.911
+    },
+    {
+        "hypo": "independence day is a festival in india.",
+        "prem": "independence day was celebrated over india.",
+        "h_pred": "is a festival in",
+        "p_pred": "was celebrated over",
+        "label": false,
+        "neg_prem": "Independence day was not celebrated over India.",
+        "neg_hypo": "Independence Day is not a festival in India.",
+        "score": 3.49
+    },
+    {
+        "hypo": "general eisenhower has been a leader in war.",
+        "prem": "general eisenhower fought in a war.",
+        "h_pred": "has been leader",
+        "p_pred": "fought",
+        "label": false,
+        "neg_prem": "General Eisenhower did not fight in a war.",
+        "neg_hypo": "General Eisenhower has not been a leader in war.",
+        "score": 5.120000000000001
+    },
+    {
+        "hypo": "the altar is constructed from wood.",
+        "prem": "the altar is a table of wood.",
+        "h_pred": "constructed from",
+        "p_pred": "a table of",
+        "label": true,
+        "neg_prem": "The altar is not a table of wood.",
+        "neg_hypo": "The altar is not constructed from wood.",
+        "score": -9.16
+    },
+    {
+        "hypo": "detectors is made of silicon.",
+        "prem": "detectors can be made from silicon.",
+        "h_pred": "is of",
+        "p_pred": "can be from",
+        "label": false,
+        "neg_prem": "Detectors cannot be made from silicon.",
+        "neg_hypo": "Detectors are not made of silicon.",
+        "score": 665.0
+    },
+    {
+        "hypo": "john adams joined in paris.",
+        "prem": "john adams traveled to paris.",
+        "h_pred": "joined in",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "John Adams did not travel to Paris.",
+        "neg_hypo": "John Adams did not join in Paris.",
+        "score": 4.199999999999999
+    },
+    {
+        "hypo": "balochi is spoken in pakistan.",
+        "prem": "balochi is the language in pakistan.",
+        "h_pred": "spoken",
+        "p_pred": "the language",
+        "label": true,
+        "neg_prem": "Balochi is not the language in Pakistan.",
+        "neg_hypo": "Balochi is not spoken in Pakistan.",
+        "score": -9.78
+    },
+    {
+        "hypo": "servants prepares meat.",
+        "prem": "servants were cooking meat.",
+        "h_pred": "prepares",
+        "p_pred": "were cooking",
+        "label": true,
+        "neg_prem": "Servants were not cooking meat.",
+        "neg_hypo": "Servants does not prepare meat.",
+        "score": -2.3230000000000004
+    },
+    {
+        "hypo": "nasser ruled egypt.",
+        "prem": "nasser became president of egypt.",
+        "h_pred": "ruled",
+        "p_pred": "became president of",
+        "label": true,
+        "neg_prem": "Nasser did not become president of Egypt.",
+        "neg_hypo": "Nasser did not rule Egypt.",
+        "score": -7.370000000000001
+    },
+    {
+        "hypo": "the canton is in europe.",
+        "prem": "the canton is the republic in europe.",
+        "h_pred": "",
+        "p_pred": "republic",
+        "label": true,
+        "neg_prem": "The canton is not the republic in Europe.",
+        "neg_hypo": "The canton is not in Europe.",
+        "score": -3.9799999999999995
+    },
+    {
+        "hypo": "sulfadiazine is preferred for infections.",
+        "prem": "sulfadiazine cures infections.",
+        "h_pred": "is preferred for",
+        "p_pred": "cures",
+        "label": false,
+        "neg_prem": "Sulfadiazine can not cure infections.",
+        "neg_hypo": "sulfadiazine is not preferred for infections.",
+        "score": 2.011
+    },
+    {
+        "hypo": "maize is processed into flour.",
+        "prem": "maize is ground into flour.",
+        "h_pred": "processed",
+        "p_pred": "ground",
+        "label": true,
+        "neg_prem": "Maize is not ground into flour.",
+        "neg_hypo": "Maize is not processed into flour.",
+        "score": -13.188
+    },
+    {
+        "hypo": "the united nations came to the aid.",
+        "prem": "the united nations provides aid.",
+        "h_pred": "came to",
+        "p_pred": "provides",
+        "label": false,
+        "neg_prem": "The United Nations does not provide aid.",
+        "neg_hypo": "The United Nations did not come to the aid.",
+        "score": 24.990000000000002
+    },
+    {
+        "hypo": "harrison works at the white house.",
+        "prem": "harrison had served in the white house.",
+        "h_pred": "works at",
+        "p_pred": "had served in",
+        "label": false,
+        "neg_prem": "Harrison had not served in the White House.",
+        "neg_hypo": "Harrison does not work at the White House.",
+        "score": 12.55
+    },
+    {
+        "hypo": "the nazis fought in a war.",
+        "prem": "the nazis would lose the war.",
+        "h_pred": "fought in a",
+        "p_pred": "would lose",
+        "label": true,
+        "neg_prem": "The Nazis would win the war.",
+        "neg_hypo": "The Nazis did not fight in a war.",
+        "score": -8.219999999999999
+    },
+    {
+        "hypo": "delphi had influence in greece.",
+        "prem": "delphi was the heart of greece.",
+        "h_pred": "had influence in",
+        "p_pred": "was the heart of",
+        "label": true,
+        "neg_prem": "Delphi was not the heart of Greece.",
+        "neg_hypo": "Delphi did not have influence in Greece.",
+        "score": -13.760000000000002
+    },
+    {
+        "hypo": "the cincinnatus was called and made dictator.",
+        "prem": "the cincinnatus became a dictator.",
+        "h_pred": "was called and made",
+        "p_pred": "became a",
+        "label": false,
+        "neg_prem": "The cincinnatus did not become a dictator.",
+        "neg_hypo": "The cincinnatus was not called and made dictator.",
+        "score": 11.200000000000001
+    },
+    {
+        "hypo": "the lamb is served with bread.",
+        "prem": "the lamb was eaten with bread.",
+        "h_pred": "is served",
+        "p_pred": "was eaten",
+        "label": false,
+        "neg_prem": "The lamb was not eaten with bread.",
+        "neg_hypo": "The lamb is not served with bread.",
+        "score": 5.07
+    },
+    {
+        "hypo": "broccoli is high in vitamins.",
+        "prem": "broccoli contains vitamins.",
+        "h_pred": "is high in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Broccoli does not contain vitamins.",
+        "neg_hypo": "Broccoli is not high in vitamins.",
+        "score": 47.410000000000004
+    },
+    {
+        "hypo": "the lark has a tuft of feathers.",
+        "prem": "the lark is covered in feathers.",
+        "h_pred": "has a tuft of",
+        "p_pred": "is covered in",
+        "label": true,
+        "neg_prem": "The lark is not covered in feathers.",
+        "neg_hypo": "the lark does not have a tuft of feathers.",
+        "score": -6.6637
+    },
+    {
+        "hypo": "wilson had been living in london.",
+        "prem": "wilson traveled to london.",
+        "h_pred": "had been living in",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "Wilson did not travel to London.",
+        "neg_hypo": "Wilson had not been living in London.",
+        "score": 15.35
+    },
+    {
+        "hypo": "fish are rich in vitamins.",
+        "prem": "fish contains vitamins.",
+        "h_pred": "are rich in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Fish does not contain vitamins.",
+        "neg_hypo": "Fish are not rich in vitamins.",
+        "score": 3.1899999999999995
+    },
+    {
+        "hypo": "polo is played in japan.",
+        "prem": "polo is said to have come to japan.",
+        "h_pred": "played in",
+        "p_pred": "said to have come to",
+        "label": true,
+        "neg_prem": "polo is not said to have come to Japan.",
+        "neg_hypo": "Polo is not played in Japan.",
+        "score": -17.60000000000001
+    },
+    {
+        "hypo": "buchanan returned to paris.",
+        "prem": "buchanan traveled to paris.",
+        "h_pred": "returned",
+        "p_pred": "traveled",
+        "label": false,
+        "neg_prem": "Buchanan did not travel to Paris.",
+        "neg_hypo": "Buchanan did not return to Paris.",
+        "score": 5.459999999999999
+    },
+    {
+        "hypo": "madrid is the capital in europe.",
+        "prem": "madrid is in europe.",
+        "h_pred": "the capital",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "Madrid is not in Europe.",
+        "neg_hypo": "Madrid is not the capital in Europe.",
+        "score": 10.2
+    },
+    {
+        "hypo": "washington was first in war.",
+        "prem": "washington fought in a war.",
+        "h_pred": "was first",
+        "p_pred": "fought a",
+        "label": false,
+        "neg_prem": "Washington did not fight in a war.",
+        "neg_hypo": "Washington was not first in war.",
+        "score": 104.91
+    },
+    {
+        "hypo": "president wilson traveled to paris.",
+        "prem": "president wilson returned to paris.",
+        "h_pred": "traveled",
+        "p_pred": "returned",
+        "label": true,
+        "neg_prem": "President Wilson did not return to Paris.",
+        "neg_hypo": "President Wilson did not travel to Paris.",
+        "score": -5.459999999999999
+    },
+    {
+        "hypo": "urdu shall be the language of pakistan.",
+        "prem": "urdu is spoken in pakistan.",
+        "h_pred": "shall be the language of",
+        "p_pred": "is spoken in",
+        "label": false,
+        "neg_prem": "Urdu is not spoken in Pakistan.",
+        "neg_hypo": "Urdu shall not be the language of Pakistan.",
+        "score": 2.9099999999999997
+    },
+    {
+        "hypo": "disney drew mickey mouse.",
+        "prem": "disney created mickey mouse.",
+        "h_pred": "drew",
+        "p_pred": "created",
+        "label": true,
+        "neg_prem": "Disney did not create Mickey Mouse.",
+        "neg_hypo": "Disney did not draw Mickey Mouse.",
+        "score": -8.32
+    },
+    {
+        "hypo": "spinach is rich in vitamins.",
+        "prem": "spinach contains vitamins.",
+        "h_pred": "is rich in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Spinach does not contain vitamins.",
+        "neg_hypo": "Spinach is not rich in vitamins.",
+        "score": 3.249999999999999
+    },
+    {
+        "hypo": "irons contain silicon.",
+        "prem": "irons is made of silicon.",
+        "h_pred": "contain",
+        "p_pred": "is made of",
+        "label": true,
+        "neg_prem": "Irons is not made of silicon.",
+        "neg_hypo": "Irons do not contain silicon.",
+        "score": -72.14
+    },
+    {
+        "hypo": "the stator is made of steel.",
+        "prem": "the stator is made up of steel.",
+        "h_pred": "",
+        "p_pred": "up",
+        "label": true,
+        "neg_prem": "The stator is not made up of steel.",
+        "neg_hypo": "The stator is not made of steel.",
+        "score": -244.99999999999997
+    },
+    {
+        "hypo": "vegetables are the sources of vitamins.",
+        "prem": "vegetables contains vitamins.",
+        "h_pred": "are the sources of",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Vegetables does not contain vitamins.",
+        "neg_hypo": "Vegetables are not the sources of vitamins.",
+        "score": 2.0200000000000005
+    },
+    {
+        "hypo": "cheese contains calcium.",
+        "prem": "cheese is rich in calcium.",
+        "h_pred": "contains",
+        "p_pred": "is rich in",
+        "label": true,
+        "neg_prem": "Cheese is not rich in calcium.",
+        "neg_hypo": "Cheese does not contain calcium.",
+        "score": -3.249999999999999
+    },
+    {
+        "hypo": "pali is spoken in india.",
+        "prem": "pali was the language in india.",
+        "h_pred": "is spoken",
+        "p_pred": "was the language",
+        "label": true,
+        "neg_prem": "Pali was not the language in India.",
+        "neg_hypo": "Pali is not spoken in India.",
+        "score": -9.49
+    },
+    {
+        "hypo": "athens had influence in greece.",
+        "prem": "athens was the eye of greece.",
+        "h_pred": "had influence in",
+        "p_pred": "was the eye of",
+        "label": true,
+        "neg_prem": "Athens was not the eye of Greece.",
+        "neg_hypo": "Athens did not have influence in Greece.",
+        "score": -4.359999999999999
+    },
+    {
+        "hypo": "tennessee produced corn.",
+        "prem": "tennessee supplies corn.",
+        "h_pred": "produced",
+        "p_pred": "supplies",
+        "label": false,
+        "neg_prem": "Tennessee does not supply corn.",
+        "neg_hypo": "Tennessee did not produce corn.",
+        "score": 4.390000000000001
+    },
+    {
+        "hypo": "earthquakes are common in japan.",
+        "prem": "earthquakes occurs in japan.",
+        "h_pred": "are common",
+        "p_pred": "occurs",
+        "label": false,
+        "neg_prem": "Earthquakes do not occur in Japan.",
+        "neg_hypo": "Earthquakes are not common in Japan.",
+        "score": 13.21
+    },
+    {
+        "hypo": "harrison had served in the white house.",
+        "prem": "harrison works at the white house.",
+        "h_pred": "had served in",
+        "p_pred": "works at",
+        "label": true,
+        "neg_prem": "Harrison does not work at the White House.",
+        "neg_hypo": "Harrison had not served in the White House.",
+        "score": -12.55
+    },
+    {
+        "hypo": "arabic is the language of all egyptians.",
+        "prem": "arabic is spoken by egyptians.",
+        "h_pred": "the language of all",
+        "p_pred": "spoken by",
+        "label": false,
+        "neg_prem": "Arabic is not spoken by Egyptians.",
+        "neg_hypo": "Arabic is not the language of all Egyptians.",
+        "score": 9.200000000000001
+    },
+    {
+        "hypo": "jesus was descended from abraham.",
+        "prem": "jesus is the son of abraham.",
+        "h_pred": "was descended from",
+        "p_pred": "is the son of",
+        "label": true,
+        "neg_prem": "Jesus is not the son of Abraham.",
+        "neg_hypo": "Jesus was not descended from Abraham.",
+        "score": -17.952
+    },
+    {
+        "hypo": "jefferson reached paris.",
+        "prem": "jefferson traveled to paris.",
+        "h_pred": "reached",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "Jefferson did not travel to Paris.",
+        "neg_hypo": "Jefferson did not reach Paris.",
+        "score": 5.93
+    },
+    {
+        "hypo": "galileo led on the part of science.",
+        "prem": "galileo contributed to science.",
+        "h_pred": "led on the part of",
+        "p_pred": "contributed to",
+        "label": false,
+        "neg_prem": "Galileo did not contribute to science.",
+        "neg_hypo": "Galileo did not lead on the part of science.",
+        "score": 7.95
+    },
+    {
+        "hypo": "green vegetables contains vitamins.",
+        "prem": "green vegetables are rich in vitamins.",
+        "h_pred": "contains",
+        "p_pred": "are rich in",
+        "label": true,
+        "neg_prem": "Green vegetables are not rich in vitamins.",
+        "neg_hypo": "Green vegetables do not contain vitamins.",
+        "score": -3.1899999999999995
+    },
+    {
+        "hypo": "the albatross feeds on fish.",
+        "prem": "the albatross is going down to fish.",
+        "h_pred": "feeds on",
+        "p_pred": "is going down to",
+        "label": true,
+        "neg_prem": "The albatross is not going down to fish.",
+        "neg_hypo": "The albatross does not feed on fish.",
+        "score": -37.824
+    },
+    {
+        "hypo": "president wilson traveled to paris.",
+        "prem": "president wilson arrived in paris.",
+        "h_pred": "traveled to",
+        "p_pred": "arrived in",
+        "label": true,
+        "neg_prem": "President Wilson did not arrive in Paris.",
+        "neg_hypo": "President Wilson did not travel to Paris.",
+        "score": -5.0
+    },
+    {
+        "hypo": "coyotes once lived in america.",
+        "prem": "coyotes lives in america.",
+        "h_pred": "once lived",
+        "p_pred": "lives",
+        "label": true,
+        "neg_prem": "Coyotes do not live in America.",
+        "neg_hypo": "Coyotes no longer live in America.",
+        "score": -7.599999999999999
+    },
+    {
+        "hypo": "snack foods includes sugar.",
+        "prem": "snack foods are high in sugar.",
+        "h_pred": "includes",
+        "p_pred": "are high in",
+        "label": true,
+        "neg_prem": "Snack foods are not high in sugar.",
+        "neg_hypo": "Snack foods do not include sugar.",
+        "score": -40.580000000000005
+    },
+    {
+        "hypo": "cheese contains calcium.",
+        "prem": "cheese is high in calcium.",
+        "h_pred": "contains",
+        "p_pred": "is high in",
+        "label": true,
+        "neg_prem": "Cheese is not high in calcium.",
+        "neg_hypo": "Cheese does not contain calcium.",
+        "score": -47.410000000000004
+    },
+    {
+        "hypo": "the portuguese first arrived in india.",
+        "prem": "the portuguese is spoken in india.",
+        "h_pred": "first arrived",
+        "p_pred": "is spoken",
+        "label": false,
+        "neg_prem": "The Portuguese is not spoken in India.",
+        "neg_hypo": "The Portuguese never arrived in India.",
+        "score": 3.07
+    },
+    {
+        "hypo": "lions live in the part of africa.",
+        "prem": "lions lives in africa.",
+        "h_pred": "live the part of",
+        "p_pred": "lives",
+        "label": false,
+        "neg_prem": "Lions do not live in Africa.",
+        "neg_hypo": "Lions do not live in any part of Africa.",
+        "score": 7.9
+    },
+    {
+        "hypo": "the algorithm is carried out by a computer.",
+        "prem": "the algorithm can be implemented on a computer.",
+        "h_pred": "is carried out by",
+        "p_pred": "can be implemented on",
+        "label": false,
+        "neg_prem": "the algorithm can not be implemented on a computer.",
+        "neg_hypo": "The algorithm is not carried out by a computer.",
+        "score": 3.9699999999999998
+    },
+    {
+        "hypo": "the portuguese is spoken in india.",
+        "prem": "the portuguese first arrived in india.",
+        "h_pred": "is spoken",
+        "p_pred": "first arrived",
+        "label": true,
+        "neg_prem": "The Portuguese did not first arrive in India.",
+        "neg_hypo": "The Portuguese is not spoken in India.",
+        "score": -3.07
+    },
+    {
+        "hypo": "texas declared independent of mexico.",
+        "prem": "texas was taken from mexico.",
+        "h_pred": "declared independent of",
+        "p_pred": "was taken from",
+        "label": true,
+        "neg_prem": "Texas was not taken from Mexico.",
+        "neg_hypo": "Texas was not declared independent of Mexico.",
+        "score": -17.299999999999997
+    },
+    {
+        "hypo": "urdu became the language of pakistan.",
+        "prem": "urdu is spoken in pakistan.",
+        "h_pred": "became the language of",
+        "p_pred": "is spoken in",
+        "label": false,
+        "neg_prem": "Urdu is not spoken in Pakistan.",
+        "neg_hypo": "Urdu did not become the language of Pakistan.",
+        "score": 3.82
+    },
+    {
+        "hypo": "john adams left paris.",
+        "prem": "john adams traveled to paris.",
+        "h_pred": "left",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "John Adams did not travel to Paris.",
+        "neg_hypo": "John Adams did not leave Paris.",
+        "score": 40.55
+    },
+    {
+        "hypo": "balochi is the language in pakistan.",
+        "prem": "balochi is spoken in pakistan.",
+        "h_pred": "the language",
+        "p_pred": "spoken",
+        "label": false,
+        "neg_prem": "Balochi is not spoken in Pakistan.",
+        "neg_hypo": "Balochi is not the language in Pakistan.",
+        "score": 9.78
+    },
+    {
+        "hypo": "jefferson returned to paris.",
+        "prem": "jefferson traveled to paris.",
+        "h_pred": "returned",
+        "p_pred": "traveled",
+        "label": false,
+        "neg_prem": "Jefferson did not travel to Paris.",
+        "neg_hypo": "Jefferson did not return to Paris.",
+        "score": 5.459999999999999
+    },
+    {
+        "hypo": "works are common in japan.",
+        "prem": "works occurs in japan.",
+        "h_pred": "are common",
+        "p_pred": "occurs",
+        "label": false,
+        "neg_prem": "Works does not occur in Japan.",
+        "neg_hypo": "Works are not common in Japan.",
+        "score": 13.21
+    },
+    {
+        "hypo": "soft drinks are high in sugar.",
+        "prem": "soft drinks includes sugar.",
+        "h_pred": "are high in",
+        "p_pred": "includes",
+        "label": false,
+        "neg_prem": "Soft drinks do not include sugar.",
+        "neg_hypo": "Soft drinks are not high in sugar.",
+        "score": 40.580000000000005
+    },
+    {
+        "hypo": "domestic cattle may have existed in america.",
+        "prem": "domestic cattle is native to america.",
+        "h_pred": "may have existed in",
+        "p_pred": "is native to",
+        "label": true,
+        "neg_prem": "Domestic cattle is not native to America.",
+        "neg_hypo": "Domestic cattle did not exist in America.",
+        "score": -2.97
+    },
+    {
+        "hypo": "rotterdam is in europe.",
+        "prem": "rotterdam is the port in europe.",
+        "h_pred": "",
+        "p_pred": "the port",
+        "label": true,
+        "neg_prem": "Rotterdam is not the port in Europe.",
+        "neg_hypo": "Rotterdam is not in Europe.",
+        "score": -5.36
+    },
+    {
+        "hypo": "john adams traveled to paris.",
+        "prem": "john adams joined in paris.",
+        "h_pred": "traveled to",
+        "p_pred": "joined in",
+        "label": true,
+        "neg_prem": "John Adams did not join in Paris.",
+        "neg_hypo": "John Adams did not travel to Paris.",
+        "score": -4.199999999999999
+    },
+    {
+        "hypo": "the united nations provides aid.",
+        "prem": "the united nations came to the aid.",
+        "h_pred": "provides",
+        "p_pred": "came to",
+        "label": true,
+        "neg_prem": "The United Nations did not come to the aid.",
+        "neg_hypo": "The United Nations does not provide aid.",
+        "score": -24.990000000000002
+    },
+    {
+        "hypo": "sparta was the head of greece.",
+        "prem": "sparta had influence in greece.",
+        "h_pred": "was the head of",
+        "p_pred": "had influence in",
+        "label": false,
+        "neg_prem": "Sparta did not have influence in Greece.",
+        "neg_hypo": "Sparta was not the head of Greece.",
+        "score": 24.46
+    },
+    {
+        "hypo": "the stator is made up of steel.",
+        "prem": "the stator is made of steel.",
+        "h_pred": "up",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "The stator is not made of steel.",
+        "neg_hypo": "the stator is not made up of steel.",
+        "score": 244.99999999999997
+    },
+    {
+        "hypo": "jesus is the son of abraham.",
+        "prem": "jesus was descended from abraham.",
+        "h_pred": "is the son of",
+        "p_pred": "was descended from",
+        "label": false,
+        "neg_prem": "Jesus was not descended from Abraham.",
+        "neg_hypo": "Jesus is not the son of Abraham.",
+        "score": 17.952
+    },
+    {
+        "hypo": "nsaids are effective against pain.",
+        "prem": "nsaids relieves pain.",
+        "h_pred": "are effective against",
+        "p_pred": "relieves",
+        "label": false,
+        "neg_prem": "NSAIDs does not relieve pain.",
+        "neg_hypo": "NSAIDs are not effective against pain.",
+        "score": 6.5224
+    },
+    {
+        "hypo": "salicylates are specific for the pain.",
+        "prem": "salicylates relieves pain.",
+        "h_pred": "are specific for the",
+        "p_pred": "relieves",
+        "label": false,
+        "neg_prem": "Salicylates does not relieve pain.",
+        "neg_hypo": "Salicylates are not specific for the pain.",
+        "score": 10.3224
+    },
+    {
+        "hypo": "diffused carbide makes up steel.",
+        "prem": "diffused carbide occurring in steels.",
+        "h_pred": "makes up steel.",
+        "p_pred": "occurring in steels.",
+        "label": false,
+        "neg_prem": "Diffused carbide does not occur in steels.",
+        "neg_hypo": "Diffused carbide does not make up steel.",
+        "score": 4.218299999999999
+    },
+    {
+        "hypo": "english is spoken in india.",
+        "prem": "english became the language of india.",
+        "h_pred": "is spoken in",
+        "p_pred": "became the language of",
+        "label": true,
+        "neg_prem": "English did not become the language of India.",
+        "neg_hypo": "English is not spoken in India.",
+        "score": -3.82
+    },
+    {
+        "hypo": "fulbright served as president.",
+        "prem": "fulbright was elected as president.",
+        "h_pred": "served",
+        "p_pred": "was elected",
+        "label": false,
+        "neg_prem": "Fulbright was not elected as president.",
+        "neg_hypo": "Fulbright did not serve as president.",
+        "score": 2.2200000000000006
+    },
+    {
+        "hypo": "herakles is the offspring of zeus.",
+        "prem": "herakles was the son of zeus.",
+        "h_pred": "is offspring",
+        "p_pred": "was son",
+        "label": true,
+        "neg_prem": "Herakles was not the son of Zeus.",
+        "neg_hypo": "Heracles is not the offspring of Zeus.",
+        "score": -17.911
+    },
+    {
+        "hypo": "the nile is the river of africa.",
+        "prem": "the nile flows through africa.",
+        "h_pred": "is river of",
+        "p_pred": "flows through",
+        "label": false,
+        "neg_prem": "The Nile does not flow through Africa.",
+        "neg_hypo": "The Nile is not the river of Africa.",
+        "score": 9.24
+    },
+    {
+        "hypo": "john adams arrived at paris.",
+        "prem": "john adams traveled to paris.",
+        "h_pred": "arrived at",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "John Adams did not travel to Paris.",
+        "neg_hypo": "John Adams did not arrive at Paris.",
+        "score": 4.9399999999999995
+    },
+    {
+        "hypo": "this method was studied by newton.",
+        "prem": "this method was used by newton.",
+        "h_pred": "studied",
+        "p_pred": "used",
+        "label": true,
+        "neg_prem": "This method was not used by Newton.",
+        "neg_hypo": "This method was not studied by Newton.",
+        "score": -60.010000000000005
+    },
+    {
+        "hypo": "clinton was elected as president.",
+        "prem": "clinton was still president.",
+        "h_pred": "elected as",
+        "p_pred": "still",
+        "label": true,
+        "neg_prem": "Clinton was not still president.",
+        "neg_hypo": "Clinton was not elected as president.",
+        "score": -78.96000000000001
+    },
+    {
+        "hypo": "butter always has some salt.",
+        "prem": "butter includes salt.",
+        "h_pred": "always has some",
+        "p_pred": "includes",
+        "label": false,
+        "neg_prem": "Butter does not include salt.",
+        "neg_hypo": "Butter never has some salt.",
+        "score": 26.68
+    },
+    {
+        "hypo": "the israelites fought in a war.",
+        "prem": "the israelites marched forth to war.",
+        "h_pred": "fought in a",
+        "p_pred": "marched forth to",
+        "label": false,
+        "neg_prem": "The Israelites did not march forth to war.",
+        "neg_hypo": "The Israelites did not fight in a war.",
+        "score": 2.6210000000000004
+    },
+    {
+        "hypo": "cheeses are rich in calcium.",
+        "prem": "cheeses contains calcium.",
+        "h_pred": "are rich in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Cheeses does not contain calcium.",
+        "neg_hypo": "Cheeses are not rich in calcium.",
+        "score": 3.1899999999999995
+    },
+    {
+        "hypo": "eisenhower came back from paris.",
+        "prem": "eisenhower traveled to paris.",
+        "h_pred": "came back from",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "Eisenhower did not travel to Paris.",
+        "neg_hypo": "Eisenhower did not come back from Paris.",
+        "score": 22.050000000000004
+    },
+    {
+        "hypo": "rome is in europe.",
+        "prem": "rome is the capital in europe.",
+        "h_pred": "",
+        "p_pred": "the capital",
+        "label": true,
+        "neg_prem": "Rome is not the capital of Europe.",
+        "neg_hypo": "Rome is not in Europe.",
+        "score": -10.2
+    },
+    {
+        "hypo": "this form occurs in japan.",
+        "prem": "this form is common in japan.",
+        "h_pred": "occurs",
+        "p_pred": "is common",
+        "label": true,
+        "neg_prem": "this form is not common in japan.",
+        "neg_hypo": "This form does not occur in Japan.",
+        "score": -13.41
+    },
+    {
+        "hypo": "napoleon was defeated at waterloo.",
+        "prem": "napoleon was defeated at the battle of waterloo.",
+        "h_pred": "",
+        "p_pred": "the battle of",
+        "label": true,
+        "neg_prem": "Napoleon was not defeated at the Battle of Waterloo.",
+        "neg_hypo": "Napoleon was not defeated at Waterloo.",
+        "score": -8.670000000000002
+    },
+    {
+        "hypo": "queen victoria moved to buckingham palace.",
+        "prem": "queen victoria lived in buckingham palace.",
+        "h_pred": "moved to",
+        "p_pred": "lived in",
+        "label": false,
+        "neg_prem": "Queen Victoria did not live in Buckingham Palace.",
+        "neg_hypo": "Queen Victoria did not move to Buckingham Palace.",
+        "score": 2.6499999999999986
+    },
+    {
+        "hypo": "disney created mickey mouse.",
+        "prem": "disney drew mickey mouse.",
+        "h_pred": "created",
+        "p_pred": "drew",
+        "label": false,
+        "neg_prem": "Disney did not drew Mickey Mouse.",
+        "neg_hypo": "Disney did not create Mickey Mouse.",
+        "score": 8.32
+    },
+    {
+        "hypo": "tashkent is in asia.",
+        "prem": "tashkent is the city in asia.",
+        "h_pred": "",
+        "p_pred": "the city",
+        "label": true,
+        "neg_prem": "Tashkent is not a city in Asia.",
+        "neg_hypo": "Tashkent is not in Asia.",
+        "score": -40.400000000000006
+    },
+    {
+        "hypo": "dominic became a saint.",
+        "prem": "dominic assumed the attitude of the saint.",
+        "h_pred": "became a",
+        "p_pred": "assumed the attitude of the",
+        "label": false,
+        "neg_prem": "Dominic did not assume the attitude of the saint.",
+        "neg_hypo": "Dominic did not become a saint.",
+        "score": 12.509999999999998
+    },
+    {
+        "hypo": "almonds contains calcium.",
+        "prem": "almonds are rich in calcium.",
+        "h_pred": "contains",
+        "p_pred": "are rich in",
+        "label": true,
+        "neg_prem": "Almonds are not rich in calcium.",
+        "neg_hypo": "Almonds do not contain calcium.",
+        "score": -3.1899999999999995
+    },
+    {
+        "hypo": "cheese is high in calcium.",
+        "prem": "cheese contains calcium.",
+        "h_pred": "is high in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Cheese does not contain calcium.",
+        "neg_hypo": "cheese is not high in calcium.",
+        "score": 47.410000000000004
+    },
+    {
+        "hypo": "tea was discovered in china.",
+        "prem": "tea is traditionally from china.",
+        "h_pred": "was discovered in",
+        "p_pred": "is traditionally from",
+        "label": false,
+        "neg_prem": "Tea is not traditionally from China.",
+        "neg_hypo": "Tea was not discovered in China.",
+        "score": 4.29
+    },
+    {
+        "hypo": "salicylates relieves pain.",
+        "prem": "salicylates are specific for the pain.",
+        "h_pred": "relieves",
+        "p_pred": "are specific for the",
+        "label": true,
+        "neg_prem": "Salicylates are not specific for the pain.",
+        "neg_hypo": "Salicylates can not relieve pain.",
+        "score": -10.3224
+    },
+    {
+        "hypo": "baboons lives in africa.",
+        "prem": "baboons are in this part of africa.",
+        "h_pred": "lives",
+        "p_pred": "are this part of",
+        "label": true,
+        "neg_prem": "Baboons are not in this part of Africa.",
+        "neg_hypo": "Baboons do not live in Africa.",
+        "score": -35.400000000000006
+    },
+    {
+        "hypo": "charles lived in buckingham palace.",
+        "prem": "charles was born at buckingham palace.",
+        "h_pred": "lived in",
+        "p_pred": "was born at",
+        "label": true,
+        "neg_prem": "Charles was not born at Buckingham Palace.",
+        "neg_hypo": "Charles did not live in Buckingham Palace.",
+        "score": -4.249999999999998
+    },
+    {
+        "hypo": "john adams traveled to paris.",
+        "prem": "john adams arrived at paris.",
+        "h_pred": "traveled to",
+        "p_pred": "arrived at",
+        "label": true,
+        "neg_prem": "John Adams did not arrive at Paris.",
+        "neg_hypo": "John Adams did not travel to Paris.",
+        "score": -4.9399999999999995
+    },
+    {
+        "hypo": "cent is accepted in canada.",
+        "prem": "cent came from canada.",
+        "h_pred": "is accepted in",
+        "p_pred": "came from",
+        "label": true,
+        "neg_prem": "100% of cent did not come from Canada.",
+        "neg_hypo": "Cent is not accepted in Canada.",
+        "score": -24.75
+    },
+    {
+        "hypo": "pain is treated with nsaids.",
+        "prem": "pain can be treated with nsaids.",
+        "h_pred": "is",
+        "p_pred": "can be",
+        "label": false,
+        "neg_prem": "Pain can not be treated with nsaids.",
+        "neg_hypo": "Pain is not treated with nsaids.",
+        "score": 974.0
+    },
+    {
+        "hypo": "the instrument can be used to compare currents.",
+        "prem": "the instrument measures current.",
+        "h_pred": "can be used to compare currents.",
+        "p_pred": "measures current.",
+        "label": true,
+        "neg_prem": "The instrument does not measure current.",
+        "neg_hypo": "The instrument can not be used to compare currents.",
+        "score": -3.365
+    },
+    {
+        "hypo": "birds can only come from america.",
+        "prem": "birds lives in america.",
+        "h_pred": "can only come from",
+        "p_pred": "lives in",
+        "label": false,
+        "neg_prem": "Birds do not live in America.",
+        "neg_hypo": "Birds can not only come from America.",
+        "score": 19.60000000000001
+    },
+    {
+        "hypo": "maize is ground into flour.",
+        "prem": "maize is processed into flour.",
+        "h_pred": "ground",
+        "p_pred": "processed",
+        "label": false,
+        "neg_prem": "Maize is not processed into flour.",
+        "neg_hypo": "Maize is not ground into flour.",
+        "score": 13.188
+    },
+    {
+        "hypo": "fat james was made king of britain.",
+        "prem": "fat james ruled britain.",
+        "h_pred": "was made king of",
+        "p_pred": "ruled",
+        "label": false,
+        "neg_prem": "James, who was thin, did not rule Britain.",
+        "neg_hypo": "James was not made king of Britain.",
+        "score": 10.3
+    },
+    {
+        "hypo": "stirrups were also made of wood.",
+        "prem": "stirrups is made of wood.",
+        "h_pred": "were also",
+        "p_pred": "is",
+        "label": true,
+        "neg_prem": "Stirrups are not made of wood.",
+        "neg_hypo": "Stirrups were not made of wood.",
+        "score": -1079.3
+    },
+    {
+        "hypo": "the communists had won the civil war.",
+        "prem": "the communists fought in the civil war.",
+        "h_pred": "had won",
+        "p_pred": "fought in",
+        "label": false,
+        "neg_prem": "The communists did not fight in the civil war.",
+        "neg_hypo": "The communists had not won the civil war.",
+        "score": 11.709999999999999
+    },
+    {
+        "hypo": "wolfe died on the field of battle.",
+        "prem": "wolfe fought in a battle.",
+        "h_pred": "died on the field of",
+        "p_pred": "fought in a",
+        "label": false,
+        "neg_prem": "Wolf did not fight in a battle.",
+        "neg_hypo": "Wolfe did not die on the field of battle.",
+        "score": 5.09
+    },
+    {
+        "hypo": "fish contains vitamins.",
+        "prem": "fish are rich in vitamins.",
+        "h_pred": "contains",
+        "p_pred": "are rich in",
+        "label": true,
+        "neg_prem": "Fish are not rich in vitamins.",
+        "neg_hypo": "Fish does not contain vitamins.",
+        "score": -3.1899999999999995
+    },
+    {
+        "hypo": "lamb is produced from sheep.",
+        "prem": "lamb is the flesh of sheep.",
+        "h_pred": "produced from",
+        "p_pred": "the flesh of",
+        "label": false,
+        "neg_prem": "Lamb is not the flesh of sheep.",
+        "neg_hypo": "Lamb is not produced from sheep.",
+        "score": 5.709999999999999
+    },
+    {
+        "hypo": "fruit juices includes sugar.",
+        "prem": "fruit juices are high in sugar.",
+        "h_pred": "includes",
+        "p_pred": "are high in",
+        "label": true,
+        "neg_prem": "Fruit juices are not high in sugar.",
+        "neg_hypo": "Fruit juices do not include sugar.",
+        "score": -40.580000000000005
+    },
+    {
+        "hypo": "that memory was common to all animals.",
+        "prem": "that memory researches animals.",
+        "h_pred": "was common to all",
+        "p_pred": "researches",
+        "label": false,
+        "neg_prem": "That memory researches not animals.",
+        "neg_hypo": "That memory was not common to all animals.",
+        "score": 14.542
+    },
+    {
+        "hypo": "robins had been kept in america.",
+        "prem": "robins lives in america.",
+        "h_pred": "had been kept",
+        "p_pred": "lives",
+        "label": true,
+        "neg_prem": "Robins does not live in America.",
+        "neg_hypo": "Robins had not been kept in America.",
+        "score": -4.709999999999999
+    },
+    {
+        "hypo": "california was taken from mexico.",
+        "prem": "california once belonged to mexico.",
+        "h_pred": "was taken from",
+        "p_pred": "once belonged to",
+        "label": false,
+        "neg_prem": "California never belonged to Mexico.",
+        "neg_hypo": "California was not taken from Mexico.",
+        "score": 18.807
+    },
+    {
+        "hypo": "jefferson traveled to paris.",
+        "prem": "jefferson left paris.",
+        "h_pred": "traveled to",
+        "p_pred": "left",
+        "label": true,
+        "neg_prem": "Jefferson did not leave Paris.",
+        "neg_hypo": "Jefferson did not travel to Paris.",
+        "score": -40.55
+    },
+    {
+        "hypo": "forces occurs in japan.",
+        "prem": "forces will remain in japan.",
+        "h_pred": "occurs",
+        "p_pred": "will remain",
+        "label": true,
+        "neg_prem": "Forces will not remain in Japan.",
+        "neg_hypo": "Forces do not occur in Japan.",
+        "score": -4.41
+    },
+    {
+        "hypo": "urdu is official in pakistan.",
+        "prem": "urdu is spoken in pakistan.",
+        "h_pred": "official",
+        "p_pred": "spoken",
+        "label": false,
+        "neg_prem": "Urdu is not spoken in Pakistan.",
+        "neg_hypo": "Urdu is not official in Pakistan.",
+        "score": 10.979999999999999
+    },
+    {
+        "hypo": "endorphins helps reduce pain.",
+        "prem": "endorphins kill pain.",
+        "h_pred": "helps reduce",
+        "p_pred": "kill",
+        "label": true,
+        "neg_prem": "Endorphins can not kill pain.",
+        "neg_hypo": "Endorphins can not help reduce pain.",
+        "score": -9.58
+    },
+    {
+        "hypo": "washington fought in a war.",
+        "prem": "washington was first in war.",
+        "h_pred": "fought a",
+        "p_pred": "was first",
+        "label": true,
+        "neg_prem": "Washington was not first in war.",
+        "neg_hypo": "Washington did not fight in a war.",
+        "score": -104.91
+    },
+    {
+        "hypo": "franco fought in the civil war.",
+        "prem": "franco had won the civil war.",
+        "h_pred": "fought in",
+        "p_pred": "had won",
+        "label": true,
+        "neg_prem": "Franco had not won the civil war.",
+        "neg_hypo": "Franco did not fight in the civil war.",
+        "score": -11.709999999999999
+    },
+    {
+        "hypo": "president wilson returned to paris.",
+        "prem": "president wilson traveled to paris.",
+        "h_pred": "returned",
+        "p_pred": "traveled",
+        "label": false,
+        "neg_prem": "President Wilson did not travel to Paris.",
+        "neg_hypo": "President Wilson did not return to Paris.",
+        "score": 5.459999999999999
+    },
+    {
+        "hypo": "the heaths are found to contain iron.",
+        "prem": "the heaths is rich with iron.",
+        "h_pred": "are found to contain",
+        "p_pred": "is rich with",
+        "label": true,
+        "neg_prem": "The heaths is not rich with iron.",
+        "neg_hypo": "The heaths do not contain iron.",
+        "score": -5.029999999999999
+    },
+    {
+        "hypo": "liege is in europe.",
+        "prem": "liege is the port in europe.",
+        "h_pred": "",
+        "p_pred": "the port",
+        "label": true,
+        "neg_prem": "Liege is not the port in Europe.",
+        "neg_hypo": "Liege is not in Europe.",
+        "score": -5.36
+    },
+    {
+        "hypo": "france sold to south africa.",
+        "prem": "south africa trades with france.",
+        "h_pred": "france sold to africa.",
+        "p_pred": "africa trades with france.",
+        "label": false,
+        "neg_prem": "South Africa does not trade with France.",
+        "neg_hypo": "France did not sell to South Africa.",
+        "score": 2.049
+    },
+    {
+        "hypo": "buchanan traveled to paris.",
+        "prem": "buchanan returned to paris.",
+        "h_pred": "traveled",
+        "p_pred": "returned",
+        "label": true,
+        "neg_prem": "Buchanan did not return to Paris.",
+        "neg_hypo": "Buchanan did not travel to Paris.",
+        "score": -5.459999999999999
+    },
+    {
+        "hypo": "the anterior pituitary secretes hormones.",
+        "prem": "the anterior pituitary secretes a number of hormones.",
+        "h_pred": "",
+        "p_pred": "a number of",
+        "label": true,
+        "neg_prem": "The anterior pituitary does not secrete a number of hormones.",
+        "neg_hypo": "The anterior pituitary does not secrete hormones.",
+        "score": -40.3
+    },
+    {
+        "hypo": "rome is the capital in europe.",
+        "prem": "rome is in europe.",
+        "h_pred": "the capital",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "Rome is not in Europe.",
+        "neg_hypo": "Rome is not the capital in Europe.",
+        "score": 10.2
+    },
+    {
+        "hypo": "sparta had influence in greece.",
+        "prem": "sparta had become the power in greece.",
+        "h_pred": "influence",
+        "p_pred": "become the power",
+        "label": true,
+        "neg_prem": "Sparta had not become the power in Greece.",
+        "neg_hypo": "Sparta did not have influence in Greece.",
+        "score": -8.170000000000002
+    },
+    {
+        "hypo": "texas was taken from mexico.",
+        "prem": "texas declared independent of mexico.",
+        "h_pred": "was taken from",
+        "p_pred": "declared independent of",
+        "label": false,
+        "neg_prem": "Texas did not declare independence from Mexico.",
+        "neg_hypo": "Texas was not taken from Mexico.",
+        "score": 17.299999999999997
+    },
+    {
+        "hypo": "the zambezi flows through africa.",
+        "prem": "the zambezi is the river of africa.",
+        "h_pred": "flows through",
+        "p_pred": "is river of",
+        "label": true,
+        "neg_prem": "The Zambezi is not the river of Africa.",
+        "neg_hypo": "The Zambezi does not flow through Africa.",
+        "score": -9.24
+    },
+    {
+        "hypo": "the sinhalese came from india.",
+        "prem": "the sinhalese is spoken in india.",
+        "h_pred": "came from",
+        "p_pred": "is spoken in",
+        "label": false,
+        "neg_prem": "The Sinhalese is not spoken in India.",
+        "neg_hypo": "The Sinhalese did not come from India.",
+        "score": 26.59
+    },
+    {
+        "hypo": "cattle is native to america.",
+        "prem": "cattle all come from america.",
+        "h_pred": "is native to",
+        "p_pred": "all come from",
+        "label": true,
+        "neg_prem": "Cattle do not all come from America.",
+        "neg_hypo": "Cattle is not native to America.",
+        "score": -40.63
+    },
+    {
+        "hypo": "albert edward lived in buckingham palace.",
+        "prem": "albert edward was born at buckingham palace.",
+        "h_pred": "lived in",
+        "p_pred": "was born at",
+        "label": true,
+        "neg_prem": "Albert Edward was not born at Buckingham Palace.",
+        "neg_hypo": "Albert Edward did not live in Buckingham Palace.",
+        "score": -4.249999999999998
+    },
+    {
+        "hypo": "this form is common in japan.",
+        "prem": "this form occurs in japan.",
+        "h_pred": "is common",
+        "p_pred": "occurs",
+        "label": false,
+        "neg_prem": "this form does not occur in Japan.",
+        "neg_hypo": "This form is not common in Japan.",
+        "score": 13.41
+    },
+    {
+        "hypo": "the fat man cut a piece of meat.",
+        "prem": "the fat man prepares meat.",
+        "h_pred": "cut a piece of",
+        "p_pred": "prepares",
+        "label": false,
+        "neg_prem": "the fat man does not prepare meat.",
+        "neg_hypo": "The fat man did not cut a piece of meat.",
+        "score": 6.2330000000000005
+    },
+    {
+        "hypo": "liver is rich with iron.",
+        "prem": "liver contain a percentage of iron.",
+        "h_pred": "is rich with",
+        "p_pred": "contain a percentage of",
+        "label": false,
+        "neg_prem": "The liver does not contain a percentage of iron.",
+        "neg_hypo": "The liver is not rich with iron.",
+        "score": 6.4399999999999995
+    },
+    {
+        "hypo": "acyclovir cures infections.",
+        "prem": "acyclovir is the treatment for infections.",
+        "h_pred": "cures",
+        "p_pred": "is the treatment for",
+        "label": true,
+        "neg_prem": "Acyclovir is not the treatment for infections.",
+        "neg_hypo": "Acyclovir does not cure infections.",
+        "score": -9.781
+    },
+    {
+        "hypo": "burma was controlled by the british empire.",
+        "prem": "burma was added to the british empire.",
+        "h_pred": "controlled by",
+        "p_pred": "added to",
+        "label": true,
+        "neg_prem": "Burma was not added to the British Empire.",
+        "neg_hypo": "Burma was not controlled by the British Empire.",
+        "score": -10.540000000000003
+    },
+    {
+        "hypo": "works occurs in japan.",
+        "prem": "works are common in japan.",
+        "h_pred": "occurs",
+        "p_pred": "are common",
+        "label": true,
+        "neg_prem": "Works are not common in Japan.",
+        "neg_hypo": "Works does not occur in Japan.",
+        "score": -13.21
+    },
+    {
+        "hypo": "trusses is made of wood.",
+        "prem": "trusses may be built of wood.",
+        "h_pred": "is made",
+        "p_pred": "may be built",
+        "label": false,
+        "neg_prem": "Trusses may not be built of wood.",
+        "neg_hypo": "Trusses are not made of wood.",
+        "score": 67.4
+    },
+    {
+        "hypo": "camels lives in america.",
+        "prem": "camels appeared in america.",
+        "h_pred": "lives",
+        "p_pred": "appeared",
+        "label": false,
+        "neg_prem": "Camels did not appear in America.",
+        "neg_hypo": "Camels do not live in America.",
+        "score": 7.039999999999998
+    },
+    {
+        "hypo": "maryland would go to the confederacy.",
+        "prem": "maryland was part of the confederacy.",
+        "h_pred": "would go to",
+        "p_pred": "was part of",
+        "label": false,
+        "neg_prem": "Maryland was not part of the Confederacy.",
+        "neg_hypo": "Maryland would not go to the confederacy.",
+        "score": 12.299999999999997
+    },
+    {
+        "hypo": "madison traveled to paris.",
+        "prem": "madison wrote in paris.",
+        "h_pred": "traveled to",
+        "p_pred": "wrote in",
+        "label": true,
+        "neg_prem": "Madison did not write in Paris.",
+        "neg_hypo": "Madison did not travel to Paris.",
+        "score": -9.750000000000002
+    },
+    {
+        "hypo": "galileo contributed to science.",
+        "prem": "galileo led on the part of science.",
+        "h_pred": "contributed to",
+        "p_pred": "led on the part of",
+        "label": true,
+        "neg_prem": "Galileo did not lead on the part of science.",
+        "neg_hypo": "Galileo did not contribute to science.",
+        "score": -7.95
+    },
+    {
+        "hypo": "kennedy traveled to london.",
+        "prem": "kennedy returned from london.",
+        "h_pred": "traveled to",
+        "p_pred": "returned from",
+        "label": true,
+        "neg_prem": "Kennedy did not return from London.",
+        "neg_hypo": "Kennedy did not travel to London.",
+        "score": -5.359999999999999
+    },
+    {
+        "hypo": "english became the language of india.",
+        "prem": "english is spoken in india.",
+        "h_pred": "became the language of",
+        "p_pred": "is spoken in",
+        "label": false,
+        "neg_prem": "English is not spoken in India.",
+        "neg_hypo": "English did not become the language of India.",
+        "score": 3.82
+    },
+    {
+        "hypo": "the german language prevails in switzerland.",
+        "prem": "the german language has official status in switzerland.",
+        "h_pred": "prevails",
+        "p_pred": "has official status",
+        "label": true,
+        "neg_prem": "The German language does not have official status in Switzerland.",
+        "neg_hypo": "The German language does not prevail in Switzerland.",
+        "score": -4.606999999999999
+    },
+    {
+        "hypo": "birds lives in america.",
+        "prem": "birds can only come from america.",
+        "h_pred": "lives in",
+        "p_pred": "can only come from",
+        "label": true,
+        "neg_prem": "Birds can not only come from America.",
+        "neg_hypo": "Birds do not live in America.",
+        "score": -19.60000000000001
+    },
+    {
+        "hypo": "forces will remain in japan.",
+        "prem": "forces occurs in japan.",
+        "h_pred": "will remain",
+        "p_pred": "occurs",
+        "label": false,
+        "neg_prem": "Forces do not occur in Japan.",
+        "neg_hypo": "forces will not remain in japan.",
+        "score": 4.41
+    },
+    {
+        "hypo": "broccoli contains vitamins.",
+        "prem": "broccoli is high in vitamins.",
+        "h_pred": "contains",
+        "p_pred": "is high in",
+        "label": true,
+        "neg_prem": "Broccoli is not high in vitamins.",
+        "neg_hypo": "Broccoli does not contain vitamins.",
+        "score": -47.410000000000004
+    },
+    {
+        "hypo": "south africa trades with france.",
+        "prem": "france sold to south africa.",
+        "h_pred": "africa trades with france.",
+        "p_pred": "france sold to africa.",
+        "label": true,
+        "neg_prem": "France did not sell to South Africa.",
+        "neg_hypo": "South Africa does not trade with France.",
+        "score": -2.049
+    },
+    {
+        "hypo": "the trumpeter has a tuft of feathers.",
+        "prem": "the trumpeter is covered in feathers.",
+        "h_pred": "has a tuft of",
+        "p_pred": "is covered in",
+        "label": true,
+        "neg_prem": "The trumpeter is not covered in feathers.",
+        "neg_hypo": "The trumpeter does not have a tuft of feathers.",
+        "score": -6.6637
+    },
+    {
+        "hypo": "the baboons are inhabitants of africa.",
+        "prem": "the baboons is native to africa.",
+        "h_pred": "are inhabitants of",
+        "p_pred": "is native to",
+        "label": true,
+        "neg_prem": "The baboons are not native to Africa.",
+        "neg_hypo": "The baboons are not inhabitants of Africa.",
+        "score": -3.7
+    },
+    {
+        "hypo": "spinach contains vitamins.",
+        "prem": "spinach is rich in vitamins.",
+        "h_pred": "contains",
+        "p_pred": "is rich in",
+        "label": true,
+        "neg_prem": "Spinach is not rich in vitamins.",
+        "neg_hypo": "Spinach does not contain vitamins.",
+        "score": -3.249999999999999
+    },
+    {
+        "hypo": "bahasa indonesia is spoken in indonesia.",
+        "prem": "bahasa indonesia is the language of indonesia.",
+        "h_pred": "spoken in",
+        "p_pred": "the language of",
+        "label": true,
+        "neg_prem": "Bahasa Indonesia is not the language of Indonesia.",
+        "neg_hypo": "Bahasa Indonesia is not spoken in Indonesia.",
+        "score": -9.69
+    },
+    {
+        "hypo": "the zambezi is the river of africa.",
+        "prem": "the zambezi flows through africa.",
+        "h_pred": "is river of",
+        "p_pred": "flows through",
+        "label": false,
+        "neg_prem": "The Zambezi does not flow through Africa.",
+        "neg_hypo": "The Zambezi is not the river of Africa.",
+        "score": 9.24
+    },
+    {
+        "hypo": "the wounded chief was carried after the battle.",
+        "prem": "the wounded chief fought in a battle.",
+        "h_pred": "was carried after",
+        "p_pred": "fought in a",
+        "label": false,
+        "neg_prem": "The wounded chief did not fight in a battle.",
+        "neg_hypo": "The wounded chief was not carried after the battle.",
+        "score": 2.4999999999999996
+    },
+    {
+        "hypo": "president wilson brought from paris.",
+        "prem": "president wilson traveled to paris.",
+        "h_pred": "brought from",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "President Wilson did not travel to Paris.",
+        "neg_hypo": "President Wilson did not bring anything from Paris.",
+        "score": 12.849999999999998
+    },
+    {
+        "hypo": "a little whiskey would stop the pain.",
+        "prem": "a little whiskey relieves pain.",
+        "h_pred": "would stop the",
+        "p_pred": "relieves",
+        "label": false,
+        "neg_prem": "a little whiskey does not relieve pain.",
+        "neg_hypo": "a little whiskey will not stop the pain.",
+        "score": 27.922399999999996
+    },
+    {
+        "hypo": "acyclovir is the treatment for infections.",
+        "prem": "acyclovir cures infections.",
+        "h_pred": "is the treatment for",
+        "p_pred": "cures",
+        "label": false,
+        "neg_prem": "Acyclovir does not cure infections.",
+        "neg_hypo": "Acyclovir is not the treatment for infections.",
+        "score": 9.781
+    },
+    {
+        "hypo": "the hawks represents england.",
+        "prem": "the hawks are esteemed in england.",
+        "h_pred": "represents",
+        "p_pred": "are esteemed in",
+        "label": false,
+        "neg_prem": "The hawks are not esteemed in England.",
+        "neg_hypo": "The hawks do not represent England.",
+        "score": 2.8299999999999996
+    },
+    {
+        "hypo": "burma was added to the british empire.",
+        "prem": "burma was controlled by the british empire.",
+        "h_pred": "added to",
+        "p_pred": "controlled by",
+        "label": false,
+        "neg_prem": "Burma was not controlled by the British Empire.",
+        "neg_hypo": "Burma was not added to the British Empire.",
+        "score": 10.540000000000003
+    },
+    {
+        "hypo": "snack foods are high in sugar.",
+        "prem": "snack foods includes sugar.",
+        "h_pred": "are high in",
+        "p_pred": "includes",
+        "label": false,
+        "neg_prem": "Snack foods do not include sugar.",
+        "neg_hypo": "Snack foods are low in sugar.",
+        "score": 40.580000000000005
+    },
+    {
+        "hypo": "sparta had become the power in greece.",
+        "prem": "sparta had influence in greece.",
+        "h_pred": "become the power",
+        "p_pred": "influence",
+        "label": false,
+        "neg_prem": "Sparta did not have influence in Greece.",
+        "neg_hypo": "Sparta had not become the power in Greece.",
+        "score": 8.170000000000002
+    },
+    {
+        "hypo": "earthquakes occurs in japan.",
+        "prem": "earthquakes are common in japan.",
+        "h_pred": "occurs",
+        "p_pred": "are common",
+        "label": true,
+        "neg_prem": "Earthquakes are not common in Japan.",
+        "neg_hypo": "Earthquakes do not occur in Japan.",
+        "score": -13.21
+    },
+    {
+        "hypo": "charles lived in versailles.",
+        "prem": "charles was born at versailles.",
+        "h_pred": "lived in",
+        "p_pred": "was born at",
+        "label": true,
+        "neg_prem": "Charles was not born at Versailles.",
+        "neg_hypo": "Charles did not live in Versailles.",
+        "score": -4.249999999999998
+    },
+    {
+        "hypo": "cortez plays in a band.",
+        "prem": "cortez is at the head of a band.",
+        "h_pred": "plays in",
+        "p_pred": "is at the head of",
+        "label": true,
+        "neg_prem": "Cortez is not at the head of a band.",
+        "neg_hypo": "Cortez does not play in a band.",
+        "score": -22.210000000000008
+    },
+    {
+        "hypo": "polo is said to have come to japan.",
+        "prem": "polo is played in japan.",
+        "h_pred": "said to have come to",
+        "p_pred": "played in",
+        "label": false,
+        "neg_prem": "Polo is not played in Japan.",
+        "neg_hypo": "Polo did not come to Japan.",
+        "score": 17.60000000000001
+    },
+    {
+        "hypo": "spinach contains vitamins.",
+        "prem": "spinach is high in vitamins.",
+        "h_pred": "contains",
+        "p_pred": "is high in",
+        "label": true,
+        "neg_prem": "Spinach is not high in vitamins.",
+        "neg_hypo": "Spinach does not contain vitamins.",
+        "score": -47.410000000000004
+    },
+    {
+        "hypo": "innsbruck was among the mountains.",
+        "prem": "innsbruck is located near mountains.",
+        "h_pred": "was among the",
+        "p_pred": "is located near",
+        "label": false,
+        "neg_prem": "Innsbruck is not located near mountains.",
+        "neg_hypo": "Innsbruck was not among the mountains.",
+        "score": 14.44
+    },
+    {
+        "hypo": "independence day was celebrated over india.",
+        "prem": "independence day is a festival in india.",
+        "h_pred": "was celebrated over",
+        "p_pred": "is a festival in",
+        "label": true,
+        "neg_prem": "Independence Day is not a festival in India.",
+        "neg_hypo": "Independence day was not celebrated over India.",
+        "score": -3.49
+    },
+    {
+        "hypo": "molars is part of the mouth.",
+        "prem": "molars are at the back of the mouth.",
+        "h_pred": "is part",
+        "p_pred": "are at back",
+        "label": true,
+        "neg_prem": "Molars are not at the back of the mouth.",
+        "neg_hypo": "molars is not part of the mouth.",
+        "score": -19.999999999999993
+    },
+    {
+        "hypo": "president wilson traveled to paris.",
+        "prem": "president wilson brought from paris.",
+        "h_pred": "traveled to",
+        "p_pred": "brought from",
+        "label": true,
+        "neg_prem": "President Wilson did not bring anything from Paris.",
+        "neg_hypo": "President Wilson did not travel to Paris.",
+        "score": -12.849999999999998
+    },
+    {
+        "hypo": "zoology is the study of animals.",
+        "prem": "zoology researches animals.",
+        "h_pred": "is the study of",
+        "p_pred": "researches",
+        "label": false,
+        "neg_prem": "Zoology does not research animals.",
+        "neg_hypo": "Zoology is not the study of animals.",
+        "score": 17.541999999999998
+    },
+    {
+        "hypo": "eisenhower traveled to paris.",
+        "prem": "eisenhower came back from paris.",
+        "h_pred": "traveled to",
+        "p_pred": "came back from",
+        "label": true,
+        "neg_prem": "Eisenhower did not come back from Paris.",
+        "neg_hypo": "Eisenhower did not travel to Paris.",
+        "score": -22.050000000000004
+    },
+    {
+        "hypo": "the ash is rich with iron.",
+        "prem": "the ash also contains iron.",
+        "h_pred": "is rich with",
+        "p_pred": "also contains",
+        "label": false,
+        "neg_prem": "The ash does not contain iron.",
+        "neg_hypo": "the ash is not rich with iron.",
+        "score": 3.339999999999999
+    },
+    {
+        "hypo": "voltaire fought in a war.",
+        "prem": "voltaire was soon at war.",
+        "h_pred": "fought in a",
+        "p_pred": "was soon at",
+        "label": true,
+        "neg_prem": "Voltaire was not soon at war.",
+        "neg_hypo": "Voltaire did not fight in a war.",
+        "score": -16.419999999999998
+    },
+    {
+        "hypo": "james monroe traveled to paris.",
+        "prem": "james monroe was sent to paris.",
+        "h_pred": "traveled",
+        "p_pred": "was sent",
+        "label": true,
+        "neg_prem": "James Monroe was not sent to Paris.",
+        "neg_hypo": "James Monroe did not travel to Paris.",
+        "score": -12.950000000000001
+    },
+    {
+        "hypo": "the larva feeds upon plants.",
+        "prem": "the larva lives off plants.",
+        "h_pred": "feeds upon",
+        "p_pred": "lives off",
+        "label": true,
+        "neg_prem": "The larva does not live off plants.",
+        "neg_hypo": "The larva does not feed upon plants.",
+        "score": -11.167
+    },
+    {
+        "hypo": "the altar is constructed from wood.",
+        "prem": "the altar was a table of wood.",
+        "h_pred": "is constructed from",
+        "p_pred": "was a table of",
+        "label": true,
+        "neg_prem": "The altar was not a table of wood.",
+        "neg_hypo": "The altar is not constructed from wood.",
+        "score": -8.960000000000003
+    },
+    {
+        "hypo": "james monroe was sent to paris.",
+        "prem": "james monroe traveled to paris.",
+        "h_pred": "was sent",
+        "p_pred": "traveled",
+        "label": false,
+        "neg_prem": "James Monroe did not travel to Paris.",
+        "neg_hypo": "James Monroe was not sent to Paris.",
+        "score": 12.950000000000001
+    },
+    {
+        "hypo": "tomatoes contains vitamins.",
+        "prem": "tomatoes are rich in vitamins.",
+        "h_pred": "contains",
+        "p_pred": "are rich in",
+        "label": true,
+        "neg_prem": "Tomatoes are not rich in vitamins.",
+        "neg_hypo": "Tomatoes do not contain vitamins.",
+        "score": -3.1899999999999995
+    },
+    {
+        "hypo": "the canton is the republic in europe.",
+        "prem": "the canton is in europe.",
+        "h_pred": "republic",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "The canton is not in Europe.",
+        "neg_hypo": "The canton is not the republic in Europe.",
+        "score": 3.9799999999999995
+    },
+    {
+        "hypo": "the anniversary was celebrated in india.",
+        "prem": "the anniversary is a festival in india.",
+        "h_pred": "was celebrated",
+        "p_pred": "is a festival",
+        "label": true,
+        "neg_prem": "The anniversary is not a festival in India.",
+        "neg_hypo": "The anniversary was not celebrated in India.",
+        "score": -3.48
+    },
+    {
+        "hypo": "the algorithm can be implemented on a computer.",
+        "prem": "the algorithm is carried out by a computer.",
+        "h_pred": "can be implemented on",
+        "p_pred": "is carried out by",
+        "label": true,
+        "neg_prem": "The algorithm is not carried out by a computer.",
+        "neg_hypo": "The algorithm can not be implemented on a computer.",
+        "score": -3.9699999999999998
+    },
+    {
+        "hypo": "germany produces wine.",
+        "prem": "wine is now made in germany.",
+        "h_pred": "germany produces wine.",
+        "p_pred": "wine is now made in germany.",
+        "label": true,
+        "neg_prem": "Wine is not made in Germany.",
+        "neg_hypo": "Germany does not produce wine.",
+        "score": -2.0
+    },
+    {
+        "hypo": "urdu is spoken in pakistan.",
+        "prem": "urdu would be the language of pakistan.",
+        "h_pred": "is spoken in",
+        "p_pred": "would be the language of",
+        "label": true,
+        "neg_prem": "Urdu would not be the language of Pakistan.",
+        "neg_hypo": "Urdu is not spoken in Pakistan.",
+        "score": -8.69
+    },
+    {
+        "hypo": "individualist became a hero.",
+        "prem": "individualist is often the hero.",
+        "h_pred": "became a",
+        "p_pred": "is often the",
+        "label": true,
+        "neg_prem": "An individualist is not often the hero.",
+        "neg_hypo": "An individualist did not become a hero.",
+        "score": -11.000000000000002
+    },
+    {
+        "hypo": "the photius acknowledged in jesus.",
+        "prem": "the photius followed jesus.",
+        "h_pred": "acknowledged in",
+        "p_pred": "followed",
+        "label": true,
+        "neg_prem": "The photius did not follow Jesus.",
+        "neg_hypo": "The photius did not acknowledge in Jesus.",
+        "score": -10.000000000000002
+    },
+    {
+        "hypo": "descartes discussed mathematics.",
+        "prem": "descartes was greatest in mathematics.",
+        "h_pred": "discussed",
+        "p_pred": "was greatest in",
+        "label": true,
+        "neg_prem": "Descartes was not greatest in mathematics.",
+        "neg_hypo": "Descartes did not discuss mathematics.",
+        "score": -3.27
+    },
+    {
+        "hypo": "jefferson left paris.",
+        "prem": "jefferson traveled to paris.",
+        "h_pred": "left",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "Jefferson did not travel to Paris.",
+        "neg_hypo": "Jefferson did not leave Paris.",
+        "score": 40.55
+    },
+    {
+        "hypo": "the israelites marched forth to war.",
+        "prem": "the israelites fought in a war.",
+        "h_pred": "marched forth to",
+        "p_pred": "fought in a",
+        "label": true,
+        "neg_prem": "The Israelites did not fight in a war.",
+        "neg_hypo": "The Israelites did not march forth to war.",
+        "score": -2.6210000000000004
+    },
+    {
+        "hypo": "the dragon has claws.",
+        "prem": "the dragon is depicted with claws.",
+        "h_pred": "has",
+        "p_pred": "is depicted with",
+        "label": false,
+        "neg_prem": "The dragon is not depicted with claws.",
+        "neg_hypo": "The dragon does not have claws.",
+        "score": 233.412
+    },
+    {
+        "hypo": "wilkes became a saint.",
+        "prem": "wilkes will pass for a saint.",
+        "h_pred": "became",
+        "p_pred": "will pass for",
+        "label": false,
+        "neg_prem": "Wilkes will not pass for a saint.",
+        "neg_hypo": "Wilkes did not become a saint.",
+        "score": 3.400000000000002
+    },
+    {
+        "hypo": "the larva lives off plants.",
+        "prem": "the larva feeds upon plants.",
+        "h_pred": "lives off",
+        "p_pred": "feeds upon",
+        "label": false,
+        "neg_prem": "The larva does not feed upon plants.",
+        "neg_hypo": "The larva does not live off plants.",
+        "score": 11.167
+    },
+    {
+        "hypo": "the pain may be relieved by aspirin.",
+        "prem": "the pain can be treated with aspirin.",
+        "h_pred": "may relieved by",
+        "p_pred": "can treated with",
+        "label": true,
+        "neg_prem": "The pain can not be treated with aspirin.",
+        "neg_hypo": "The pain may not be relieved by aspirin.",
+        "score": -4.119
+    },
+    {
+        "hypo": "persian was the language in india.",
+        "prem": "persian is spoken in india.",
+        "h_pred": "was the language",
+        "p_pred": "is spoken",
+        "label": false,
+        "neg_prem": "Persian is not spoken in India.",
+        "neg_hypo": "Persian was not the language in India.",
+        "score": 9.49
+    },
+    {
+        "hypo": "the anniversary is celebrated in china.",
+        "prem": "the anniversary is a festival in china.",
+        "h_pred": "celebrated",
+        "p_pred": "a festival",
+        "label": true,
+        "neg_prem": "The anniversary is not a festival in China.",
+        "neg_hypo": "The anniversary is not celebrated in China.",
+        "score": -3.5000000000000004
+    },
+    {
+        "hypo": "the altar is a table of wood.",
+        "prem": "the altar is constructed from wood.",
+        "h_pred": "a table of",
+        "p_pred": "constructed from",
+        "label": false,
+        "neg_prem": "The altar is not constructed from wood.",
+        "neg_hypo": "The altar is not a table of wood.",
+        "score": 9.16
+    },
+    {
+        "hypo": "the gypsies is spoken in india.",
+        "prem": "the gypsies came from india.",
+        "h_pred": "is spoken in",
+        "p_pred": "came from",
+        "label": true,
+        "neg_prem": "The gypsies did not come from India.",
+        "neg_hypo": "The gypsies are not spoken in India.",
+        "score": -26.59
+    },
+    {
+        "hypo": "johnson traveled to london.",
+        "prem": "johnson was taken to london.",
+        "h_pred": "traveled",
+        "p_pred": "was taken",
+        "label": true,
+        "neg_prem": "Johnson was not taken to London.",
+        "neg_hypo": "Johnson did not travel to London.",
+        "score": -19.55
+    },
+    {
+        "hypo": "zoology researches animals.",
+        "prem": "zoology is the study of animals.",
+        "h_pred": "researches",
+        "p_pred": "is the study of",
+        "label": true,
+        "neg_prem": "Zoology is not the study of animals.",
+        "neg_hypo": "Zoology does not research animals.",
+        "score": -17.541999999999998
+    },
+    {
+        "hypo": "a durable denture is made of metal.",
+        "prem": "a durable denture can be made of that metal.",
+        "h_pred": "is",
+        "p_pred": "can be that",
+        "label": false,
+        "neg_prem": "a durable denture can not be made of that metal.",
+        "neg_hypo": "A durable denture is not made of metal.",
+        "score": 1005.0
+    },
+    {
+        "hypo": "the crusader went and fell in battle.",
+        "prem": "the crusader fought in a battle.",
+        "h_pred": "went and fell",
+        "p_pred": "fought a",
+        "label": false,
+        "neg_prem": "the crusader did not fight in a battle.",
+        "neg_hypo": "The crusader did not go and did not fall in battle.",
+        "score": 2.6800000000000006
+    },
+    {
+        "hypo": "fruit juices are high in sugar.",
+        "prem": "fruit juices includes sugar.",
+        "h_pred": "are high in",
+        "p_pred": "includes",
+        "label": false,
+        "neg_prem": "Fruit juices do not include sugar.",
+        "neg_hypo": "Fruit juices are not high in sugar.",
+        "score": 40.580000000000005
+    },
+    {
+        "hypo": "detectors can be made from silicon.",
+        "prem": "detectors is made of silicon.",
+        "h_pred": "can be from",
+        "p_pred": "is of",
+        "label": true,
+        "neg_prem": "Detectors are not made of silicon.",
+        "neg_hypo": "Detectors can not be made from silicon.",
+        "score": -665.0
+    },
+    {
+        "hypo": "these amphibians have been found in america.",
+        "prem": "these amphibians lives in america.",
+        "h_pred": "have been found",
+        "p_pred": "lives",
+        "label": false,
+        "neg_prem": "These amphibians do not live in America.",
+        "neg_hypo": "These amphibians have not been found in America.",
+        "score": 21.6
+    },
+    {
+        "hypo": "john adams was sent to london.",
+        "prem": "john adams traveled to london.",
+        "h_pred": "was sent",
+        "p_pred": "traveled",
+        "label": false,
+        "neg_prem": "John Adams did not travel to London.",
+        "neg_hypo": "John Adams was not sent to London.",
+        "score": 12.950000000000001
+    },
+    {
+        "hypo": "silicide is used in making some steels.",
+        "prem": "silicide makes up steel.",
+        "h_pred": "is used in making some steels.",
+        "p_pred": "makes up steel.",
+        "label": true,
+        "neg_prem": "Silicide does not make up steel.",
+        "neg_hypo": "Silicide is not used in making some steels.",
+        "score": -4.214199999999999
+    },
+    {
+        "hypo": "philadelphia is in pennsylvania.",
+        "prem": "philadelphia is the city in pennsylvania.",
+        "h_pred": "",
+        "p_pred": "the city",
+        "label": true,
+        "neg_prem": "Philadelphia is not the city in Pennsylvania.",
+        "neg_hypo": "Philadelphia is not in Pennsylvania.",
+        "score": -40.400000000000006
+    },
+    {
+        "hypo": "soft drinks includes sugar.",
+        "prem": "soft drinks are high in sugar.",
+        "h_pred": "includes",
+        "p_pred": "are high in",
+        "label": true,
+        "neg_prem": "Soft drinks are not high in sugar.",
+        "neg_hypo": "Soft drinks do not include sugar.",
+        "score": -40.580000000000005
+    },
+    {
+        "hypo": "johnson was taken to london.",
+        "prem": "johnson traveled to london.",
+        "h_pred": "was taken",
+        "p_pred": "traveled",
+        "label": false,
+        "neg_prem": "Johnson did not travel to London.",
+        "neg_hypo": "Johnson was not taken to London.",
+        "score": 19.55
+    },
+    {
+        "hypo": "sanskrit was the language in india.",
+        "prem": "sanskrit is spoken in india.",
+        "h_pred": "was the language",
+        "p_pred": "is spoken",
+        "label": false,
+        "neg_prem": "Sanskrit is not spoken in India.",
+        "neg_hypo": "Sanskrit was not the language in India.",
+        "score": 9.49
+    },
+    {
+        "hypo": "wilson is now in london.",
+        "prem": "wilson traveled to london.",
+        "h_pred": "is now in",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "Wilson did not travel to London.",
+        "neg_hypo": "Wilson is not in London.",
+        "score": 123.85
+    },
+    {
+        "hypo": "the cincinnatus became a dictator.",
+        "prem": "the cincinnatus was called and made dictator.",
+        "h_pred": "became a",
+        "p_pred": "was called and made",
+        "label": true,
+        "neg_prem": "The Cincinnatus was not called and made dictator.",
+        "neg_hypo": "The cincinnatus did not become a dictator.",
+        "score": -11.200000000000001
+    },
+    {
+        "hypo": "kennedy returned from london.",
+        "prem": "kennedy traveled to london.",
+        "h_pred": "returned from",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "Kennedy did not travel to London.",
+        "neg_hypo": "Kennedy did not return from London.",
+        "score": 5.359999999999999
+    },
+    {
+        "hypo": "bahasa indonesia is the language of indonesia.",
+        "prem": "bahasa indonesia is spoken in indonesia.",
+        "h_pred": "the language of",
+        "p_pred": "spoken in",
+        "label": false,
+        "neg_prem": "Bahasa Indonesia is not spoken in Indonesia.",
+        "neg_hypo": "Bahasa Indonesia is not the language of Indonesia.",
+        "score": 9.69
+    },
+    {
+        "hypo": "these amphibians lives in america.",
+        "prem": "these amphibians have been found in america.",
+        "h_pred": "lives",
+        "p_pred": "have been found",
+        "label": true,
+        "neg_prem": "These amphibians have not been found in America.",
+        "neg_hypo": "These amphibians do not live in America.",
+        "score": -21.6
+    },
+    {
+        "hypo": "the depraved sinner became a saint.",
+        "prem": "the depraved sinner may be converted into an saint.",
+        "h_pred": "became a",
+        "p_pred": "may be converted into an",
+        "label": false,
+        "neg_prem": "The depraved sinner may not be converted into a saint.",
+        "neg_hypo": "The depraved sinner did not become a saint.",
+        "score": 12.439999999999998
+    },
+    {
+        "hypo": "camels appeared in america.",
+        "prem": "camels lives in america.",
+        "h_pred": "appeared",
+        "p_pred": "lives",
+        "label": true,
+        "neg_prem": "Camels do not live in America.",
+        "neg_hypo": "Camels did not appear in America.",
+        "score": -7.039999999999998
+    },
+    {
+        "hypo": "cleopatra was the queen of egypt.",
+        "prem": "cleopatra ruled egypt.",
+        "h_pred": "was the queen of",
+        "p_pred": "ruled",
+        "label": false,
+        "neg_prem": "Cleopatra did not rule Egypt.",
+        "neg_hypo": "Cleopatra was not the queen of Egypt.",
+        "score": 5.140000000000001
+    },
+    {
+        "hypo": "madison will pass for a saint.",
+        "prem": "madison became a saint.",
+        "h_pred": "will pass for",
+        "p_pred": "became",
+        "label": true,
+        "neg_prem": "Madison did not become a saint.",
+        "neg_hypo": "Madison will not pass for a saint.",
+        "score": -3.400000000000002
+    },
+    {
+        "hypo": "butter includes salt.",
+        "prem": "butter always has some salt.",
+        "h_pred": "includes",
+        "p_pred": "always has some",
+        "label": true,
+        "neg_prem": "Butter never has some salt.",
+        "neg_hypo": "Butter does not include salt.",
+        "score": -26.68
+    },
+    {
+        "hypo": "robins lives in america.",
+        "prem": "robins had been kept in america.",
+        "h_pred": "lives",
+        "p_pred": "had been kept",
+        "label": false,
+        "neg_prem": "Robins had not been kept in America.",
+        "neg_hypo": "Robins does not live in America.",
+        "score": 4.709999999999999
+    },
+    {
+        "hypo": "fat james ruled britain.",
+        "prem": "fat james was made king of britain.",
+        "h_pred": "ruled",
+        "p_pred": "was made king of",
+        "label": true,
+        "neg_prem": "James was not made king of Britain.",
+        "neg_hypo": "Fat James did not rule Britain.",
+        "score": -10.3
+    },
+    {
+        "hypo": "servants were cooking meat.",
+        "prem": "servants prepares meat.",
+        "h_pred": "were cooking",
+        "p_pred": "prepares",
+        "label": false,
+        "neg_prem": "Servants do not prepare meat.",
+        "neg_hypo": "Servants were not cooking meat.",
+        "score": 2.3230000000000004
+    },
+    {
+        "hypo": "dental needles is made of steel.",
+        "prem": "dental needles should be made of steel.",
+        "h_pred": "is",
+        "p_pred": "should be",
+        "label": false,
+        "neg_prem": "Dental needles should not be made of steel.",
+        "neg_hypo": "Dental needles are not made of steel.",
+        "score": 1085.6
+    },
+    {
+        "hypo": "franco had won the civil war.",
+        "prem": "franco fought in the civil war.",
+        "h_pred": "had won",
+        "p_pred": "fought in",
+        "label": false,
+        "neg_prem": "Franco did not fight in the civil war.",
+        "neg_hypo": "Franco had not won the civil war.",
+        "score": 11.709999999999999
+    },
+    {
+        "hypo": "the heaths is rich with iron.",
+        "prem": "the heaths are said to contain iron.",
+        "h_pred": "is rich with",
+        "p_pred": "are said to contain",
+        "label": false,
+        "neg_prem": "The heaths are not said to contain iron.",
+        "neg_hypo": "The heaths are not rich with iron.",
+        "score": 4.93
+    },
+    {
+        "hypo": "pulleys is made of wood.",
+        "prem": "pulleys are also made of wood.",
+        "h_pred": "is",
+        "p_pred": "are also",
+        "label": false,
+        "neg_prem": "Pulley is not made of wood.",
+        "neg_hypo": "Pulley is not made of wood.",
+        "score": 1049.0
+    },
+    {
+        "hypo": "rotterdam is the port in europe.",
+        "prem": "rotterdam is in europe.",
+        "h_pred": "the port",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "Rotterdam is not in Europe.",
+        "neg_hypo": "Rotterdam is not the port in Europe.",
+        "score": 5.36
+    },
+    {
+        "hypo": "wilson traveled to london.",
+        "prem": "wilson is now in london.",
+        "h_pred": "traveled to",
+        "p_pred": "is now in",
+        "label": true,
+        "neg_prem": "Wilson is not in London.",
+        "neg_hypo": "Wilson did not travel to London.",
+        "score": -123.85
+    },
+    {
+        "hypo": "cheese is rich in calcium.",
+        "prem": "cheese contains calcium.",
+        "h_pred": "is rich in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Cheese does not contain calcium.",
+        "neg_hypo": "Cheese is not rich in calcium.",
+        "score": 3.249999999999999
+    },
+    {
+        "hypo": "the depraved sinner may be converted into an saint.",
+        "prem": "the depraved sinner became a saint.",
+        "h_pred": "may be converted into an",
+        "p_pred": "became a",
+        "label": true,
+        "neg_prem": "The depraved sinner did not become a saint.",
+        "neg_hypo": "The depraved sinner may not be converted into an saint.",
+        "score": -12.439999999999998
+    },
+    {
+        "hypo": "the herbs contains calcium.",
+        "prem": "the herbs are high in calcium.",
+        "h_pred": "contains",
+        "p_pred": "are high in",
+        "label": true,
+        "neg_prem": "The herbs are not high in calcium.",
+        "neg_hypo": "The herbs does not contain calcium.",
+        "score": -44.910000000000004
+    },
+    {
+        "hypo": "individualist is often the hero.",
+        "prem": "individualist became a hero.",
+        "h_pred": "is often the",
+        "p_pred": "became a",
+        "label": false,
+        "neg_prem": "Individualism did not become a hero.",
+        "neg_hypo": "Individualist is not often the hero.",
+        "score": 11.000000000000002
+    },
+    {
+        "hypo": "doxycycline cures infections.",
+        "prem": "doxycycline is recommended for patients with infections.",
+        "h_pred": "cures",
+        "p_pred": "is recommended for patients with",
+        "label": true,
+        "neg_prem": "Doxycycline is not recommended for patients without infections.",
+        "neg_hypo": "Doxycycline does not cure infections.",
+        "score": -2.0410000000000004
+    },
+    {
+        "hypo": "rowan is native to america.",
+        "prem": "rowan resided in america.",
+        "h_pred": "is native to",
+        "p_pred": "resided in",
+        "label": false,
+        "neg_prem": "Rowan did not reside in America.",
+        "neg_hypo": "Rowan is not native to America.",
+        "score": 4.656
+    },
+    {
+        "hypo": "that memory researches animals.",
+        "prem": "that memory was common to all animals.",
+        "h_pred": "researches",
+        "p_pred": "was common to all",
+        "label": true,
+        "neg_prem": "That memory was not common to all animals.",
+        "neg_hypo": "That memory research does not involve animals.",
+        "score": -14.542
+    },
+    {
+        "hypo": "the congo is the heart of africa.",
+        "prem": "the congo flows through africa.",
+        "h_pred": "is heart of",
+        "p_pred": "flows through",
+        "label": false,
+        "neg_prem": "The Congo does not flow through Africa.",
+        "neg_hypo": "The Congo is not the heart of Africa.",
+        "score": 18.540000000000003
+    },
+    {
+        "hypo": "indonesian is the language of indonesia.",
+        "prem": "indonesian is spoken in indonesia.",
+        "h_pred": "the language of",
+        "p_pred": "spoken in",
+        "label": false,
+        "neg_prem": "Indonesian is not spoken in Indonesia.",
+        "neg_hypo": "Indonesian is not the language of Indonesia.",
+        "score": 9.69
+    },
+    {
+        "hypo": "nsaids relieves pain.",
+        "prem": "nsaids are effective against pain.",
+        "h_pred": "relieves",
+        "p_pred": "are effective against",
+        "label": true,
+        "neg_prem": "NSAIDs are not effective against pain.",
+        "neg_hypo": "NSAIDs does not relieve pain.",
+        "score": -6.5224
+    },
+    {
+        "hypo": "the claimants are the descendants of abraham.",
+        "prem": "the claimants is the son of abraham.",
+        "h_pred": "are descendants",
+        "p_pred": "is son",
+        "label": true,
+        "neg_prem": "The claimants is not the son of Abraham.",
+        "neg_hypo": "The claimants are not the descendants of Abraham.",
+        "score": -18.288
+    },
+    {
+        "hypo": "urdu is spoken in pakistan.",
+        "prem": "urdu shall be the language of pakistan.",
+        "h_pred": "is spoken in",
+        "p_pred": "shall be the language of",
+        "label": true,
+        "neg_prem": "Urdu shall not be the language of Pakistan.",
+        "neg_hypo": "Urdu is not spoken in Pakistan.",
+        "score": -2.9099999999999997
+    },
+    {
+        "hypo": "horses were moving from africa.",
+        "prem": "horses is native to africa.",
+        "h_pred": "were moving from",
+        "p_pred": "is native to",
+        "label": false,
+        "neg_prem": "Horses are not native to Africa.",
+        "neg_hypo": "Horses were not moving from Africa.",
+        "score": 4.89
+    },
+    {
+        "hypo": "coyotes lives in america.",
+        "prem": "coyotes once lived in america.",
+        "h_pred": "lives",
+        "p_pred": "once lived",
+        "label": false,
+        "neg_prem": "Coyotes no longer live in America.",
+        "neg_hypo": "Coyotes do not live in America.",
+        "score": 7.599999999999999
+    },
+    {
+        "hypo": "almonds are rich in calcium.",
+        "prem": "almonds contains calcium.",
+        "h_pred": "are rich in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Almonds does not contain calcium.",
+        "neg_hypo": "Almonds are not rich in calcium.",
+        "score": 3.1899999999999995
+    },
+    {
+        "hypo": "economists have advocated a tax.",
+        "prem": "economists proposed more tax.",
+        "h_pred": "have advocated a",
+        "p_pred": "proposed more",
+        "label": true,
+        "neg_prem": "economists did not propose more tax.",
+        "neg_hypo": "Economists have not advocated a tax.",
+        "score": -4.622000000000001
+    },
+    {
+        "hypo": "philadelphia is the city in pennsylvania.",
+        "prem": "philadelphia is in pennsylvania.",
+        "h_pred": "the city",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "Philadelphia is not in Pennsylvania.",
+        "neg_hypo": "Philadelphia is not the city in Pennsylvania.",
+        "score": 40.400000000000006
+    },
+    {
+        "hypo": "the ash also contains iron.",
+        "prem": "the ash is rich with iron.",
+        "h_pred": "also contains",
+        "p_pred": "is rich with",
+        "label": true,
+        "neg_prem": "The ash is not rich with iron.",
+        "neg_hypo": "The ash does not contain iron.",
+        "score": -3.339999999999999
+    },
+    {
+        "hypo": "trusses may be built of wood.",
+        "prem": "trusses is made of wood.",
+        "h_pred": "may be built",
+        "p_pred": "is made",
+        "label": true,
+        "neg_prem": "Trusses are not made of wood.",
+        "neg_hypo": "Trusses can not be built of wood.",
+        "score": -67.4
+    },
+    {
+        "hypo": "sparta had influence in greece.",
+        "prem": "sparta was the head of greece.",
+        "h_pred": "had influence in",
+        "p_pred": "was the head of",
+        "label": true,
+        "neg_prem": "Sparta was not the head of Greece.",
+        "neg_hypo": "Sparta did not have influence in Greece.",
+        "score": -24.46
+    },
+    {
+        "hypo": "fresh vegetables have more vitamins.",
+        "prem": "fresh vegetables contains vitamins.",
+        "h_pred": "have more",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Fresh vegetables do not contain vitamins.",
+        "neg_hypo": "Fresh vegetables do not have more vitamins.",
+        "score": 153.21
+    },
+    {
+        "hypo": "the bolsheviks fought in the civil war.",
+        "prem": "the bolsheviks had won the civil war.",
+        "h_pred": "fought in",
+        "p_pred": "had won",
+        "label": true,
+        "neg_prem": "The bolsheviks had not won the civil war.",
+        "neg_hypo": "The bolsheviks did not fight in the civil war.",
+        "score": -11.709999999999999
+    },
+    {
+        "hypo": "voltaire was soon at war.",
+        "prem": "voltaire fought in a war.",
+        "h_pred": "was soon at",
+        "p_pred": "fought in a",
+        "label": false,
+        "neg_prem": "Voltaire did not fight in a war.",
+        "neg_hypo": "Voltaire was not soon at war.",
+        "score": 16.419999999999998
+    },
+    {
+        "hypo": "pulleys are also made of wood.",
+        "prem": "pulleys is made of wood.",
+        "h_pred": "are also",
+        "p_pred": "is",
+        "label": true,
+        "neg_prem": "Pulley is not made of wood.",
+        "neg_hypo": "Pulleys are not made of wood.",
+        "score": -1049.0
+    },
+    {
+        "hypo": "the claimants is the son of abraham.",
+        "prem": "the claimants are the descendants of abraham.",
+        "h_pred": "is son",
+        "p_pred": "are descendants",
+        "label": false,
+        "neg_prem": "The claimants are not the descendants of Abraham.",
+        "neg_hypo": "The claimants is not the son of Abraham.",
+        "score": 18.288
+    },
+    {
+        "hypo": "the bolsheviks had won the civil war.",
+        "prem": "the bolsheviks fought in the civil war.",
+        "h_pred": "had won",
+        "p_pred": "fought in",
+        "label": false,
+        "neg_prem": "The bolsheviks did not fight in the civil war.",
+        "neg_hypo": "The Bolsheviks had not won the civil war.",
+        "score": 11.709999999999999
+    },
+    {
+        "hypo": "a little whiskey relieves pain.",
+        "prem": "a little whiskey would stop the pain.",
+        "h_pred": "relieves",
+        "p_pred": "would stop the",
+        "label": true,
+        "neg_prem": "a little whiskey will not stop the pain.",
+        "neg_hypo": "a little whiskey does not relieve pain.",
+        "score": -27.922399999999996
+    },
+    {
+        "hypo": "a whiskey would stop the pain.",
+        "prem": "a whiskey relieves pain.",
+        "h_pred": "would stop the",
+        "p_pred": "relieves",
+        "label": false,
+        "neg_prem": "a whiskey does not relieve pain.",
+        "neg_hypo": "a whiskey would not stop the pain.",
+        "score": 27.922399999999996
+    },
+    {
+        "hypo": "urdu would be the language of pakistan.",
+        "prem": "urdu is spoken in pakistan.",
+        "h_pred": "would be the language of",
+        "p_pred": "is spoken in",
+        "label": false,
+        "neg_prem": "Urdu is not spoken in Pakistan.",
+        "neg_hypo": "Urdu would not be the language of Pakistan.",
+        "score": 8.69
+    },
+    {
+        "hypo": "vertebrates usually covered with scales.",
+        "prem": "vertebrates is covered in scales.",
+        "h_pred": "usually with",
+        "p_pred": "is in",
+        "label": true,
+        "neg_prem": "Vertebrates are not covered in scales.",
+        "neg_hypo": "Vertebrates are not usually covered with scales.",
+        "score": -706.2
+    },
+    {
+        "hypo": "the herbs are high in calcium.",
+        "prem": "the herbs contains calcium.",
+        "h_pred": "are high in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "The herbs does not contain calcium.",
+        "neg_hypo": "The herbs are low in calcium.",
+        "score": 44.910000000000004
+    },
+    {
+        "hypo": "persian is spoken in india.",
+        "prem": "persian was the language in india.",
+        "h_pred": "is spoken",
+        "p_pred": "was the language",
+        "label": true,
+        "neg_prem": "Persian was not the language in India.",
+        "neg_hypo": "Persian is not spoken in India.",
+        "score": -9.49
+    },
+    {
+        "hypo": "the altar was a table of wood.",
+        "prem": "the altar is constructed from wood.",
+        "h_pred": "was a table of",
+        "p_pred": "is constructed from",
+        "label": false,
+        "neg_prem": "The altar is not constructed from wood.",
+        "neg_hypo": "The altar was not a table of wood.",
+        "score": 8.960000000000003
+    },
+    {
+        "hypo": "this sherbet includes sugar.",
+        "prem": "this sherbet is simply sugar.",
+        "h_pred": "includes",
+        "p_pred": "is simply",
+        "label": true,
+        "neg_prem": "This sherbet is not simply sugar.",
+        "neg_hypo": "This sherbet does not include sugar.",
+        "score": -2.780000000000001
+    },
+    {
+        "hypo": "wine is now made in germany.",
+        "prem": "germany produces wine.",
+        "h_pred": "wine is now made in germany.",
+        "p_pred": "germany produces wine.",
+        "label": false,
+        "neg_prem": "Germany does not produce wine.",
+        "neg_hypo": "Wine is not made in Germany.",
+        "score": 2.0
+    },
+    {
+        "hypo": "pertussis usually is accompanied by a fever.",
+        "prem": "pertussis causes fever.",
+        "h_pred": "usually is accompanied by a",
+        "p_pred": "causes",
+        "label": true,
+        "neg_prem": "Pertussis does not cause fever.",
+        "neg_hypo": "Pertussis usually is not accompanied by a fever.",
+        "score": -2.7000000000000006
+    },
+    {
+        "hypo": "the lark is covered in feathers.",
+        "prem": "the lark has a tuft of feathers.",
+        "h_pred": "is covered in",
+        "p_pred": "has a tuft of",
+        "label": false,
+        "neg_prem": "The lark does not have a tuft of feathers.",
+        "neg_hypo": "The lark is not covered in feathers.",
+        "score": 6.6637
+    },
+    {
+        "hypo": "indonesian is spoken in indonesia.",
+        "prem": "indonesian is the language of indonesia.",
+        "h_pred": "spoken in",
+        "p_pred": "the language of",
+        "label": true,
+        "neg_prem": "Indonesian is not the language of Indonesia.",
+        "neg_hypo": "Indonesian is not spoken in Indonesia.",
+        "score": -9.69
+    },
+    {
+        "hypo": "horses is native to africa.",
+        "prem": "horses were moving from africa.",
+        "h_pred": "is native to",
+        "p_pred": "were moving from",
+        "label": true,
+        "neg_prem": "Horses were not moving from Africa.",
+        "neg_hypo": "Horses are not native to Africa.",
+        "score": -4.89
+    },
+    {
+        "hypo": "the congo flows through africa.",
+        "prem": "the congo is the heart of africa.",
+        "h_pred": "flows through",
+        "p_pred": "is heart of",
+        "label": true,
+        "neg_prem": "The Congo is not the heart of Africa.",
+        "neg_hypo": "The Congo does not flow through Africa.",
+        "score": -18.540000000000003
+    },
+    {
+        "hypo": "dried fruits is rich with iron.",
+        "prem": "dried fruits contain an amount of iron.",
+        "h_pred": "is rich with",
+        "p_pred": "contain an amount of",
+        "label": false,
+        "neg_prem": "Dried fruits do not contain an amount of iron.",
+        "neg_hypo": "Dried fruits are not rich with iron.",
+        "score": 5.4399999999999995
+    },
+    {
+        "hypo": "queen victoria lived in buckingham palace.",
+        "prem": "queen victoria moved to buckingham palace.",
+        "h_pred": "lived in",
+        "p_pred": "moved to",
+        "label": true,
+        "neg_prem": "Queen Victoria did not move to Buckingham Palace.",
+        "neg_hypo": "Queen Victoria did not live in Buckingham Palace.",
+        "score": -2.6499999999999986
+    },
+    {
+        "hypo": "natural history is the study of animals.",
+        "prem": "natural history researches animals.",
+        "h_pred": "is the study of",
+        "p_pred": "researches",
+        "label": false,
+        "neg_prem": "Natural history researches do not animals.",
+        "neg_hypo": "Natural history is not the study of animals.",
+        "score": 17.541999999999998
+    },
+    {
+        "hypo": "the albatross is going down to fish.",
+        "prem": "the albatross feeds on fish.",
+        "h_pred": "is going down to",
+        "p_pred": "feeds on",
+        "label": false,
+        "neg_prem": "The albatross does not feed on fish.",
+        "neg_hypo": "The albatross is not going down to fish.",
+        "score": 37.824
+    },
+    {
+        "hypo": "cheeses contains calcium.",
+        "prem": "cheeses are rich in calcium.",
+        "h_pred": "contains",
+        "p_pred": "are rich in",
+        "label": true,
+        "neg_prem": "Cheeses are not rich in calcium.",
+        "neg_hypo": "Cheese does not contain calcium.",
+        "score": -3.1899999999999995
+    },
+    {
+        "hypo": "archimedes gave and created the science.",
+        "prem": "archimedes contributed to science.",
+        "h_pred": "gave and created the",
+        "p_pred": "contributed to",
+        "label": false,
+        "neg_prem": "Archimedes did not contribute to science.",
+        "neg_hypo": "Archimedes did not give or create the science.",
+        "score": 4.399999999999999
+    },
+    {
+        "hypo": "nasser became president of egypt.",
+        "prem": "nasser ruled egypt.",
+        "h_pred": "became president of",
+        "p_pred": "ruled",
+        "label": false,
+        "neg_prem": "Nasser did not rule Egypt.",
+        "neg_hypo": "Nasser did not become president of Egypt.",
+        "score": 7.370000000000001
+    },
+    {
+        "hypo": "silicide makes up steel.",
+        "prem": "silicide is used in making some steels.",
+        "h_pred": "makes up steel.",
+        "p_pred": "is used in making some steels.",
+        "label": false,
+        "neg_prem": "Silicide is not used in making some steels.",
+        "neg_hypo": "Silicide does not make up steel.",
+        "score": 4.214199999999999
+    },
+    {
+        "hypo": "president wilson traveled to paris.",
+        "prem": "president wilson left paris.",
+        "h_pred": "traveled to",
+        "p_pred": "left",
+        "label": true,
+        "neg_prem": "President Wilson did not leave Paris.",
+        "neg_hypo": "President Wilson did not travel to Paris.",
+        "score": -40.55
+    },
+    {
+        "hypo": "tomatoes are rich in vitamins.",
+        "prem": "tomatoes contains vitamins.",
+        "h_pred": "are rich in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Tomatoes does not contain vitamins.",
+        "neg_hypo": "Tomatoes are not rich in vitamins.",
+        "score": 3.1899999999999995
+    },
+    {
+        "hypo": "cent is accepted in canada.",
+        "prem": "cent comes from canada.",
+        "h_pred": "is accepted in",
+        "p_pred": "comes from",
+        "label": true,
+        "neg_prem": "Cent does not come from Canada.",
+        "neg_hypo": "Cent is not accepted in Canada.",
+        "score": -17.049999999999997
+    },
+    {
+        "hypo": "doxycycline is recommended for patients with infections.",
+        "prem": "doxycycline cures infections.",
+        "h_pred": "is recommended for patients with",
+        "p_pred": "cures",
+        "label": false,
+        "neg_prem": "Doxycycline can not cure infections.",
+        "neg_hypo": "Doxycycline is not recommended for patients with infections.",
+        "score": 2.0410000000000004
+    },
+    {
+        "hypo": "molars are at the back of the mouth.",
+        "prem": "molars is part of the mouth.",
+        "h_pred": "are at back",
+        "p_pred": "is part",
+        "label": false,
+        "neg_prem": "Molars is not part of the mouth.",
+        "neg_hypo": "Molars are not at the back of the mouth.",
+        "score": 19.999999999999993
+    },
+    {
+        "hypo": "plato discussed mathematics.",
+        "prem": "plato was an student of mathematics.",
+        "h_pred": "discussed",
+        "p_pred": "was an student of",
+        "label": true,
+        "neg_prem": "Plato was not a student of mathematics.",
+        "neg_hypo": "Plato did not discuss mathematics.",
+        "score": -7.139999999999999
+    },
+    {
+        "hypo": "venice had influence in greece.",
+        "prem": "venice took the lead with greece.",
+        "h_pred": "had influence in",
+        "p_pred": "took the lead with",
+        "label": true,
+        "neg_prem": "Venice did not take the lead with Greece.",
+        "neg_hypo": "Venice did not have influence in Greece.",
+        "score": -4.660000000000002
+    },
+    {
+        "hypo": "economists proposed more tax.",
+        "prem": "economists have advocated a tax.",
+        "h_pred": "proposed more",
+        "p_pred": "have advocated a",
+        "label": false,
+        "neg_prem": "economists have not advocated a tax.",
+        "neg_hypo": "Economists did not propose more tax.",
+        "score": 4.622000000000001
+    },
+    {
+        "hypo": "the gazelle will have fur.",
+        "prem": "the gazelle has fur.",
+        "h_pred": "will have",
+        "p_pred": "has",
+        "label": true,
+        "neg_prem": "The gazelle does not have fur.",
+        "neg_hypo": "The gazelle will not have fur.",
+        "score": -52.0
+    },
+    {
+        "hypo": "pali was the language in india.",
+        "prem": "pali is spoken in india.",
+        "h_pred": "was the language",
+        "p_pred": "is spoken",
+        "label": false,
+        "neg_prem": "Pali is not spoken in India.",
+        "neg_hypo": "Pali was not the language in India.",
+        "score": 9.49
+    },
+    {
+        "hypo": "urdu is spoken in pakistan.",
+        "prem": "urdu is official in pakistan.",
+        "h_pred": "spoken",
+        "p_pred": "official",
+        "label": true,
+        "neg_prem": "Urdu is not official in Pakistan.",
+        "neg_hypo": "Urdu is not spoken in Pakistan.",
+        "score": -10.979999999999999
+    },
+    {
+        "hypo": "the incidence is highest in japan.",
+        "prem": "the incidence occurs in japan.",
+        "h_pred": "is highest",
+        "p_pred": "occurs",
+        "label": false,
+        "neg_prem": "The incidence does not occur in Japan.",
+        "neg_hypo": "The incidence is lowest in Japan.",
+        "score": 5.010000000000002
+    },
+    {
+        "hypo": "the veteran cincinnatus became a dictator.",
+        "prem": "the veteran cincinnatus was called and made dictator.",
+        "h_pred": "became a",
+        "p_pred": "was called and made",
+        "label": true,
+        "neg_prem": "The veteran cincinnatus was not called and made dictator.",
+        "neg_hypo": "The veteran Cincinnatus did not become a dictator.",
+        "score": -11.200000000000001
+    },
+    {
+        "hypo": "pertussis causes fever.",
+        "prem": "pertussis usually is accompanied by a fever.",
+        "h_pred": "causes",
+        "p_pred": "usually is accompanied by a",
+        "label": false,
+        "neg_prem": "Pertussis usually is not accompanied by a fever.",
+        "neg_hypo": "Pertussis does not cause fever.",
+        "score": 2.7000000000000006
+    },
+    {
+        "hypo": "athens was the eye of greece.",
+        "prem": "athens had influence in greece.",
+        "h_pred": "was the eye of",
+        "p_pred": "had influence in",
+        "label": false,
+        "neg_prem": "Athens did not have influence in Greece.",
+        "neg_hypo": "Athens was not the eye of Greece.",
+        "score": 4.359999999999999
+    },
+    {
+        "hypo": "general eisenhower fought in a war.",
+        "prem": "general eisenhower has been a leader in war.",
+        "h_pred": "fought",
+        "p_pred": "has been leader",
+        "label": true,
+        "neg_prem": "General Eisenhower has not been a leader in war.",
+        "neg_hypo": "General Eisenhower did not fight in a war.",
+        "score": -5.120000000000001
+    },
+    {
+        "hypo": "dominic assumed the attitude of the saint.",
+        "prem": "dominic became a saint.",
+        "h_pred": "assumed the attitude of the",
+        "p_pred": "became a",
+        "label": true,
+        "neg_prem": "Dominic did not become a saint.",
+        "neg_hypo": "Dominic did not assume the attitude of the saint.",
+        "score": -12.509999999999998
+    },
+    {
+        "hypo": "archimedes contributed to science.",
+        "prem": "archimedes gave and created the science.",
+        "h_pred": "contributed to",
+        "p_pred": "gave and created the",
+        "label": true,
+        "neg_prem": "Archimedes did not gave or create the science.",
+        "neg_hypo": "Archimedes did not contribute to science.",
+        "score": -4.399999999999999
+    },
+    {
+        "hypo": "napoleon was defeated at the battle of waterloo.",
+        "prem": "napoleon was defeated at waterloo.",
+        "h_pred": "the battle of",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "Napoleon was not defeated at Waterloo.",
+        "neg_hypo": "Napoleon was not defeated at the Battle of Waterloo.",
+        "score": 8.670000000000002
+    },
+    {
+        "hypo": "charles was born at versailles.",
+        "prem": "charles lived in versailles.",
+        "h_pred": "was born at",
+        "p_pred": "lived in",
+        "label": false,
+        "neg_prem": "Charles did not live in Versailles.",
+        "neg_hypo": "Charles was not born at Versailles.",
+        "score": 4.249999999999998
+    },
+    {
+        "hypo": "natural history researches animals.",
+        "prem": "natural history is the study of animals.",
+        "h_pred": "researches",
+        "p_pred": "is the study of",
+        "label": true,
+        "neg_prem": "Natural history is not the study of animals.",
+        "neg_hypo": "Natural history researches do not animals.",
+        "score": -17.541999999999998
+    },
+    {
+        "hypo": "fresh vegetables contains vitamins.",
+        "prem": "fresh vegetables have more vitamins.",
+        "h_pred": "contains",
+        "p_pred": "have more",
+        "label": true,
+        "neg_prem": "Fresh vegetables do not have more vitamins.",
+        "neg_hypo": "Fresh vegetables do not contain vitamins.",
+        "score": -153.21
+    },
+    {
+        "hypo": "almonds contains calcium.",
+        "prem": "almonds are high in calcium.",
+        "h_pred": "contains",
+        "p_pred": "are high in",
+        "label": true,
+        "neg_prem": "Almonds are not high in calcium.",
+        "neg_hypo": "Almonds do not contain calcium.",
+        "score": -44.910000000000004
+    },
+    {
+        "hypo": "paleontology studies life.",
+        "prem": "paleontology is the study of life.",
+        "h_pred": "studies",
+        "p_pred": "is the study of",
+        "label": true,
+        "neg_prem": "Paleontology is not the study of life.",
+        "neg_hypo": "Paleontology does not study life.",
+        "score": -8.149999999999999
+    },
+    {
+        "hypo": "green vegetables are rich in vitamins.",
+        "prem": "green vegetables contains vitamins.",
+        "h_pred": "are rich in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Green vegetables does not contain vitamins.",
+        "neg_hypo": "Green vegetables are not rich in vitamins.",
+        "score": 3.1899999999999995
+    },
+    {
+        "hypo": "the tamils is spoken in india.",
+        "prem": "the tamils came from india.",
+        "h_pred": "is spoken in",
+        "p_pred": "came from",
+        "label": true,
+        "neg_prem": "The Tamils did not come from India.",
+        "neg_hypo": "The Tamils are not spoken in India.",
+        "score": -26.59
+    },
+    {
+        "hypo": "wolfe fought in a battle.",
+        "prem": "wolfe died on the field of battle.",
+        "h_pred": "fought in a",
+        "p_pred": "died on the field of",
+        "label": true,
+        "neg_prem": "Wolfe did not die on the field of battle.",
+        "neg_hypo": "Wolfe did not fight in a battle.",
+        "score": -5.09
+    },
+    {
+        "hypo": "bolivar became a dictator.",
+        "prem": "bolivar was actually the dictator.",
+        "h_pred": "became a",
+        "p_pred": "was actually the",
+        "label": true,
+        "neg_prem": "Bolivar was not actually the dictator.",
+        "neg_hypo": "Bolivar did not become a dictator.",
+        "score": -15.4
+    },
+    {
+        "hypo": "the pain can be treated with aspirin.",
+        "prem": "the pain may be relieved by aspirin.",
+        "h_pred": "can treated with",
+        "p_pred": "may relieved by",
+        "label": false,
+        "neg_prem": "The pain may not be relieved by aspirin.",
+        "neg_hypo": "The pain can not be treated with aspirin.",
+        "score": 4.119
+    },
+    {
+        "hypo": "tea is traditionally from china.",
+        "prem": "tea was discovered in china.",
+        "h_pred": "is traditionally from",
+        "p_pred": "was discovered in",
+        "label": true,
+        "neg_prem": "Tea was not discovered in China.",
+        "neg_hypo": "Tea is not traditionally from China.",
+        "score": -4.29
+    },
+    {
+        "hypo": "cincinnatus became a dictator.",
+        "prem": "cincinnatus was called to be dictator.",
+        "h_pred": "became a",
+        "p_pred": "was called to be",
+        "label": true,
+        "neg_prem": "Cincinnatus was not called to be dictator.",
+        "neg_hypo": "Cincinnatus did not become a dictator.",
+        "score": -20.200000000000003
+    },
+    {
+        "hypo": "dried fruits contain an amount of iron.",
+        "prem": "dried fruits is rich with iron.",
+        "h_pred": "contain an amount of",
+        "p_pred": "is rich with",
+        "label": true,
+        "neg_prem": "Dried fruits are not rich with iron.",
+        "neg_hypo": "Dried fruits do not contain an amount of iron.",
+        "score": -5.4399999999999995
+    },
+    {
+        "hypo": "wilkes will pass for a saint.",
+        "prem": "wilkes became a saint.",
+        "h_pred": "will pass for",
+        "p_pred": "became",
+        "label": true,
+        "neg_prem": "Wilkes did not become a saint.",
+        "neg_hypo": "Wilkes will not pass for a saint.",
+        "score": -3.400000000000002
+    },
+    {
+        "hypo": "urdu is spoken in pakistan.",
+        "prem": "urdu became the language of pakistan.",
+        "h_pred": "is spoken in",
+        "p_pred": "became the language of",
+        "label": true,
+        "neg_prem": "Urdu did not become the language of Pakistan.",
+        "neg_hypo": "Urdu is not spoken in Pakistan.",
+        "score": -3.82
+    },
+    {
+        "hypo": "lions lives in africa.",
+        "prem": "lions live in the part of africa.",
+        "h_pred": "lives",
+        "p_pred": "live the part of",
+        "label": true,
+        "neg_prem": "Lions do not live in Africa.",
+        "neg_hypo": "Lions do not live in Africa.",
+        "score": -7.9
+    },
+    {
+        "hypo": "california once belonged to mexico.",
+        "prem": "california was taken from mexico.",
+        "h_pred": "once belonged to",
+        "p_pred": "was taken from",
+        "label": true,
+        "neg_prem": "California was not taken from Mexico.",
+        "neg_hypo": "California never belonged to Mexico.",
+        "score": -18.807
+    },
+    {
+        "hypo": "the communists fought in the civil war.",
+        "prem": "the communists had won the civil war.",
+        "h_pred": "fought in",
+        "p_pred": "had won",
+        "label": true,
+        "neg_prem": "The communists had not won the civil war.",
+        "neg_hypo": "The communists did not fight in the civil war.",
+        "score": -11.709999999999999
+    },
+    {
+        "hypo": "rowan resided in america.",
+        "prem": "rowan is native to america.",
+        "h_pred": "resided in",
+        "p_pred": "is native to",
+        "label": true,
+        "neg_prem": "Rowan is not native to America.",
+        "neg_hypo": "Rowan did not reside in America.",
+        "score": -4.656
+    },
+    {
+        "hypo": "fulbright was elected as president.",
+        "prem": "fulbright served as president.",
+        "h_pred": "was elected",
+        "p_pred": "served",
+        "label": true,
+        "neg_prem": "Fulbright did not serve as president.",
+        "neg_hypo": "Fulbright was not elected as president.",
+        "score": -2.2200000000000006
+    },
+    {
+        "hypo": "cattle all come from america.",
+        "prem": "cattle is native to america.",
+        "h_pred": "all come from",
+        "p_pred": "is native to",
+        "label": false,
+        "neg_prem": "Cattle is not native to America.",
+        "neg_hypo": "Cattle do not all come from America.",
+        "score": 40.63
+    },
+    {
+        "hypo": "the fat man prepares meat.",
+        "prem": "the fat man cut a piece of meat.",
+        "h_pred": "prepares",
+        "p_pred": "cut a piece of",
+        "label": true,
+        "neg_prem": "the fat man did not cut a piece of meat.",
+        "neg_hypo": "the fat man does not prepare meat.",
+        "score": -6.2330000000000005
+    },
+    {
+        "hypo": "stirrups is made of wood.",
+        "prem": "stirrups were also made of wood.",
+        "h_pred": "is",
+        "p_pred": "were also",
+        "label": false,
+        "neg_prem": "Stirrups were not made of wood.",
+        "neg_hypo": "Stirrups are not made of wood.",
+        "score": 1079.3
+    },
+    {
+        "hypo": "innsbruck is located near mountains.",
+        "prem": "innsbruck was among the mountains.",
+        "h_pred": "is located near",
+        "p_pred": "was among the",
+        "label": true,
+        "neg_prem": "Innsbruck was not among the mountains.",
+        "neg_hypo": "Innsbruck is not located near mountains.",
+        "score": -14.44
+    },
+    {
+        "hypo": "cent came from canada.",
+        "prem": "cent is accepted in canada.",
+        "h_pred": "came from",
+        "p_pred": "is accepted in",
+        "label": false,
+        "neg_prem": "Cent is not accepted in Canada.",
+        "neg_hypo": "Cent did not come from Canada.",
+        "score": 24.75
+    },
+    {
+        "hypo": "the baboons is native to africa.",
+        "prem": "the baboons are inhabitants of africa.",
+        "h_pred": "is native to",
+        "p_pred": "are inhabitants of",
+        "label": false,
+        "neg_prem": "The baboons are not inhabitants of Africa.",
+        "neg_hypo": "The baboons are not native to Africa.",
+        "score": 3.7
+    },
+    {
+        "hypo": "geology studies the earth.",
+        "prem": "geology is the study of the earth.",
+        "h_pred": "studies",
+        "p_pred": "is study of",
+        "label": true,
+        "neg_prem": "Geology is not the study of the earth.",
+        "neg_hypo": "Geology does not study the earth.",
+        "score": -8.25
+    },
+    {
+        "hypo": "vertebrates is covered in scales.",
+        "prem": "vertebrates usually covered with scales.",
+        "h_pred": "is in",
+        "p_pred": "usually with",
+        "label": false,
+        "neg_prem": "Vertebrates are not usually covered with scales.",
+        "neg_hypo": "Vertebrates are not covered in scales.",
+        "score": 706.2
+    },
+    {
+        "hypo": "the anniversary is a festival in china.",
+        "prem": "the anniversary is celebrated in china.",
+        "h_pred": "a festival",
+        "p_pred": "celebrated",
+        "label": false,
+        "neg_prem": "The anniversary is not celebrated in China.",
+        "neg_hypo": "The anniversary is not a festival in China.",
+        "score": 3.5000000000000004
+    },
+    {
+        "hypo": "jefferson traveled to paris.",
+        "prem": "jefferson returned to paris.",
+        "h_pred": "traveled",
+        "p_pred": "returned",
+        "label": true,
+        "neg_prem": "Jefferson did not return to Paris.",
+        "neg_hypo": "Jefferson did not travel to Paris.",
+        "score": -5.459999999999999
+    },
+    {
+        "hypo": "vegetables contains vitamins.",
+        "prem": "vegetables are the sources of vitamins.",
+        "h_pred": "contains",
+        "p_pred": "are the sources of",
+        "label": true,
+        "neg_prem": "Vegetables are not the sources of vitamins.",
+        "neg_hypo": "Vegetables do not contain vitamins.",
+        "score": -2.0200000000000005
+    },
+    {
+        "hypo": "the nazis would lose the war.",
+        "prem": "the nazis fought in a war.",
+        "h_pred": "would lose",
+        "p_pred": "fought in a",
+        "label": false,
+        "neg_prem": "the Nazis did not fight in a war.",
+        "neg_hypo": "The Nazis would win the war.",
+        "score": 8.219999999999999
+    },
+    {
+        "hypo": "madrid is in europe.",
+        "prem": "madrid is the capital in europe.",
+        "h_pred": "",
+        "p_pred": "the capital",
+        "label": true,
+        "neg_prem": "Madrid is not the capital in Europe.",
+        "neg_hypo": "Madrid is not in Europe.",
+        "score": -10.2
+    },
+    {
+        "hypo": "the photius followed jesus.",
+        "prem": "the photius acknowledged in jesus.",
+        "h_pred": "followed",
+        "p_pred": "acknowledged in",
+        "label": false,
+        "neg_prem": "The photius did not acknowledge in Jesus.",
+        "neg_hypo": "The Pharisees did not follow Jesus.",
+        "score": 10.000000000000002
+    },
+    {
+        "hypo": "a small moth has spots on the wings.",
+        "prem": "a small moth has wings.",
+        "h_pred": "spots on the",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "a small moth does not have wings.",
+        "neg_hypo": "a small moth does not have spots on the wings.",
+        "score": 2.13
+    },
+    {
+        "hypo": "the heaths is rich with iron.",
+        "prem": "the heaths are found to contain iron.",
+        "h_pred": "is rich with",
+        "p_pred": "are found to contain",
+        "label": false,
+        "neg_prem": "The heaths do not contain iron.",
+        "neg_hypo": "The heaths is not rich with iron.",
+        "score": 5.029999999999999
+    },
+    {
+        "hypo": "the wounded chief fought in a battle.",
+        "prem": "the wounded chief was carried after the battle.",
+        "h_pred": "fought in a",
+        "p_pred": "was carried after",
+        "label": true,
+        "neg_prem": "The wounded chief was not carried after the battle.",
+        "neg_hypo": "The wounded chief did not fight in a battle.",
+        "score": -2.4999999999999996
+    },
+    {
+        "hypo": "the veteran cincinnatus was called and made dictator.",
+        "prem": "the veteran cincinnatus became a dictator.",
+        "h_pred": "was called and made",
+        "p_pred": "became a",
+        "label": false,
+        "neg_prem": "The veteran cincinnatus did not become a dictator.",
+        "neg_hypo": "The veteran Cincinnatus was not called and made dictator.",
+        "score": 11.200000000000001
+    },
+    {
+        "hypo": "heretic became a hero.",
+        "prem": "heretic is often the hero.",
+        "h_pred": "became a",
+        "p_pred": "is often the",
+        "label": true,
+        "neg_prem": "a hero is not often a heretic.",
+        "neg_hypo": "a hero did not become a heretic.",
+        "score": -11.000000000000002
+    },
+    {
+        "hypo": "this sherbet is simply sugar.",
+        "prem": "this sherbet includes sugar.",
+        "h_pred": "is simply",
+        "p_pred": "includes",
+        "label": false,
+        "neg_prem": "This sherbet does not include sugar.",
+        "neg_hypo": "This sherbet is not simply sugar.",
+        "score": 2.780000000000001
+    },
+    {
+        "hypo": "the tamils came from india.",
+        "prem": "the tamils is spoken in india.",
+        "h_pred": "came from",
+        "p_pred": "is spoken in",
+        "label": false,
+        "neg_prem": "The Tamils are not spoken in India.",
+        "neg_hypo": "The Tamils did not come from India.",
+        "score": 26.59
+    },
+    {
+        "hypo": "dental needles should be made of steel.",
+        "prem": "dental needles is made of steel.",
+        "h_pred": "should be",
+        "p_pred": "is",
+        "label": true,
+        "neg_prem": "Dental needles are not made of steel.",
+        "neg_hypo": "dental needles should not be made of steel.",
+        "score": -1085.6
+    },
+    {
+        "hypo": "lamb is the flesh of sheep.",
+        "prem": "lamb is produced from sheep.",
+        "h_pred": "the flesh of",
+        "p_pred": "produced from",
+        "label": true,
+        "neg_prem": "Lamb is not produced from sheep.",
+        "neg_hypo": "Lamb is not the flesh of sheep.",
+        "score": -5.709999999999999
+    },
+    {
+        "hypo": "john adams traveled to london.",
+        "prem": "john adams was sent to london.",
+        "h_pred": "traveled",
+        "p_pred": "was sent",
+        "label": true,
+        "neg_prem": "John Adams was not sent to London.",
+        "neg_hypo": "John Adams did not travel to London.",
+        "score": -12.950000000000001
+    },
+    {
+        "hypo": "john adams traveled to paris.",
+        "prem": "john adams left paris.",
+        "h_pred": "traveled to",
+        "p_pred": "left",
+        "label": true,
+        "neg_prem": "John Adams did not leave Paris.",
+        "neg_hypo": "John Adams did not travel to Paris.",
+        "score": -40.55
+    },
+    {
+        "hypo": "baboons are in this part of africa.",
+        "prem": "baboons lives in africa.",
+        "h_pred": "are this part of",
+        "p_pred": "lives",
+        "label": false,
+        "neg_prem": "Baboons do not live in Africa.",
+        "neg_hypo": "Baboons are not in this part of Africa.",
+        "score": 35.400000000000006
+    },
+    {
+        "hypo": "bolivar was actually the dictator.",
+        "prem": "bolivar became a dictator.",
+        "h_pred": "was actually the",
+        "p_pred": "became a",
+        "label": false,
+        "neg_prem": "Bolivar did not become a dictator.",
+        "neg_hypo": "Bolivar was not actually the dictator.",
+        "score": 15.4
+    },
+    {
+        "hypo": "tennessee supplies corn.",
+        "prem": "tennessee produced corn.",
+        "h_pred": "supplies",
+        "p_pred": "produced",
+        "label": true,
+        "neg_prem": "Tennessee did not produce corn.",
+        "neg_hypo": "Tennessee does not supply corn.",
+        "score": -4.390000000000001
+    },
+    {
+        "hypo": "delphi was the heart of greece.",
+        "prem": "delphi had influence in greece.",
+        "h_pred": "was the heart of",
+        "p_pred": "had influence in",
+        "label": false,
+        "neg_prem": "Delphi did not have influence in Greece.",
+        "neg_hypo": "Delphi was not the heart of Greece.",
+        "score": 13.760000000000002
+    },
+    {
+        "hypo": "the mark is accepted in canada.",
+        "prem": "the mark has been used in canada.",
+        "h_pred": "is accepted",
+        "p_pred": "has been used",
+        "label": true,
+        "neg_prem": "The mark has not been used in Canada.",
+        "neg_hypo": "the mark is not accepted in Canada.",
+        "score": -34.540000000000006
+    },
+    {
+        "hypo": "the emperor fought in a war.",
+        "prem": "the emperor had been forced into the war.",
+        "h_pred": "fought in a",
+        "p_pred": "had been forced into",
+        "label": true,
+        "neg_prem": "The emperor had not been forced into the war.",
+        "neg_hypo": "The emperor did not fight in a war.",
+        "score": -2.9499999999999997
+    },
+    {
+        "hypo": "sulfadiazine cures infections.",
+        "prem": "sulfadiazine is preferred for infections.",
+        "h_pred": "cures",
+        "p_pred": "is preferred for",
+        "label": true,
+        "neg_prem": "Sulfadiazine is not preferred for infections.",
+        "neg_hypo": "Sulfadiazine does not cure infections.",
+        "score": -2.011
+    },
+    {
+        "hypo": "spinach is high in vitamins.",
+        "prem": "spinach contains vitamins.",
+        "h_pred": "is high in",
+        "p_pred": "contains",
+        "label": false,
+        "neg_prem": "Spinach does not contain vitamins.",
+        "neg_hypo": "Spinach is not high in vitamins.",
+        "score": 47.410000000000004
+    },
+    {
+        "hypo": "the sinhalese is spoken in india.",
+        "prem": "the sinhalese came from india.",
+        "h_pred": "is spoken in",
+        "p_pred": "came from",
+        "label": true,
+        "neg_prem": "The Sinhalese did not come from India.",
+        "neg_hypo": "The Sinhalese is not spoken in India.",
+        "score": -26.59
+    },
+    {
+        "hypo": "the mark has been used in canada.",
+        "prem": "the mark is accepted in canada.",
+        "h_pred": "has been used",
+        "p_pred": "is accepted",
+        "label": false,
+        "neg_prem": "The mark is not accepted in Canada.",
+        "neg_hypo": "The mark has not been used in Canada.",
+        "score": 34.540000000000006
+    },
+    {
+        "hypo": "liver contain a percentage of iron.",
+        "prem": "liver is rich with iron.",
+        "h_pred": "contain a percentage of",
+        "p_pred": "is rich with",
+        "label": true,
+        "neg_prem": "The liver is not rich with iron.",
+        "neg_hypo": "The liver does not contain a percentage of iron.",
+        "score": -6.4399999999999995
+    },
+    {
+        "hypo": "the gazelle has fur.",
+        "prem": "the gazelle will have fur.",
+        "h_pred": "has",
+        "p_pred": "will have",
+        "label": false,
+        "neg_prem": "The gazelle will not have fur.",
+        "neg_hypo": "The gazelle does not have fur.",
+        "score": 52.0
+    },
+    {
+        "hypo": "president wilson left paris.",
+        "prem": "president wilson traveled to paris.",
+        "h_pred": "left",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "President Wilson did not travel to Paris.",
+        "neg_hypo": "President Wilson did not leave Paris.",
+        "score": 40.55
+    },
+    {
+        "hypo": "charles was born at buckingham palace.",
+        "prem": "charles lived in buckingham palace.",
+        "h_pred": "was born at",
+        "p_pred": "lived in",
+        "label": false,
+        "neg_prem": "Charles did not live in Buckingham Palace.",
+        "neg_hypo": "Charles was not born at Buckingham Palace.",
+        "score": 4.249999999999998
+    },
+    {
+        "hypo": "the incidence occurs in japan.",
+        "prem": "the incidence is highest in japan.",
+        "h_pred": "occurs",
+        "p_pred": "is highest",
+        "label": true,
+        "neg_prem": "The incidence is not highest in Japan.",
+        "neg_hypo": "The incidence does not occur in Japan.",
+        "score": -5.010000000000002
+    },
+    {
+        "hypo": "the crusader fought in a battle.",
+        "prem": "the crusader went and fell in battle.",
+        "h_pred": "fought a",
+        "p_pred": "went and fell",
+        "label": true,
+        "neg_prem": "The crusader did not go and fell in battle.",
+        "neg_hypo": "The crusader did not fight in a battle.",
+        "score": -2.6800000000000006
+    },
+    {
+        "hypo": "madison wrote in paris.",
+        "prem": "madison traveled to paris.",
+        "h_pred": "wrote in",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "Madison did not travel to Paris.",
+        "neg_hypo": "Madison did not write in Paris.",
+        "score": 9.750000000000002
+    },
+    {
+        "hypo": "tashkent is the city in asia.",
+        "prem": "tashkent is in asia.",
+        "h_pred": "the city",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "Tashkent is not in Asia.",
+        "neg_hypo": "Tashkent is not a city in Asia.",
+        "score": 40.400000000000006
+    },
+    {
+        "hypo": "archaeology studies life.",
+        "prem": "archaeology is the study of life.",
+        "h_pred": "studies",
+        "p_pred": "is the study of",
+        "label": true,
+        "neg_prem": "Archaeology is not the study of life.",
+        "neg_hypo": "Archaeology does not study life.",
+        "score": -8.149999999999999
+    },
+    {
+        "hypo": "diffused carbide occurring in steels.",
+        "prem": "diffused carbide makes up steel.",
+        "h_pred": "occurring in steels.",
+        "p_pred": "makes up steel.",
+        "label": true,
+        "neg_prem": "Diffused carbide does not make up steel.",
+        "neg_hypo": "Diffused carbide does not occur in steels.",
+        "score": -4.218299999999999
+    },
+    {
+        "hypo": "clinton was still president.",
+        "prem": "clinton was elected as president.",
+        "h_pred": "still",
+        "p_pred": "elected as",
+        "label": false,
+        "neg_prem": "Clinton was not elected as president.",
+        "neg_hypo": "Clinton was not still president.",
+        "score": 78.96000000000001
+    },
+    {
+        "hypo": "cincinnatus was called to be dictator.",
+        "prem": "cincinnatus became a dictator.",
+        "h_pred": "was called to be",
+        "p_pred": "became a",
+        "label": false,
+        "neg_prem": "Cincinnatus did not become a dictator.",
+        "neg_hypo": "Cincinnatus was not called to be dictator.",
+        "score": 20.200000000000003
+    },
+    {
+        "hypo": "heretic is often the hero.",
+        "prem": "heretic became a hero.",
+        "h_pred": "is often the",
+        "p_pred": "became a",
+        "label": false,
+        "neg_prem": "A hero did not become a heretic.",
+        "neg_hypo": "A heretic is never a hero.",
+        "score": 11.000000000000002
+    },
+    {
+        "hypo": "wilson traveled to london.",
+        "prem": "wilson had been living in london.",
+        "h_pred": "traveled to",
+        "p_pred": "had been living in",
+        "label": true,
+        "neg_prem": "Wilson had not been living in London.",
+        "neg_hypo": "Wilson did not travel to London.",
+        "score": -15.35
+    },
+    {
+        "hypo": "arabic is spoken by egyptians.",
+        "prem": "arabic is the language of all egyptians.",
+        "h_pred": "spoken by",
+        "p_pred": "the language of all",
+        "label": true,
+        "neg_prem": "Arabic is not the language of all Egyptians.",
+        "neg_hypo": "Arabic is not spoken by Egyptians.",
+        "score": -9.200000000000001
+    },
+    {
+        "hypo": "paleontology is the study of life.",
+        "prem": "paleontology studies life.",
+        "h_pred": "is the study of",
+        "p_pred": "studies",
+        "label": false,
+        "neg_prem": "Paleontology does not study life.",
+        "neg_hypo": "Paleontology is not the study of life.",
+        "score": 8.149999999999999
+    },
+    {
+        "hypo": "the anniversary is a festival in india.",
+        "prem": "the anniversary was celebrated in india.",
+        "h_pred": "is a festival",
+        "p_pred": "was celebrated",
+        "label": false,
+        "neg_prem": "The anniversary was not celebrated in India.",
+        "neg_hypo": "The anniversary is not a festival in India.",
+        "score": 3.48
+    },
+    {
+        "hypo": "walt disney created mickey mouse.",
+        "prem": "walt disney drew mickey mouse.",
+        "h_pred": "created",
+        "p_pred": "drew",
+        "label": false,
+        "neg_prem": "Walt Disney did not draw Mickey Mouse.",
+        "neg_hypo": "Walt Disney did not create Mickey Mouse.",
+        "score": 8.32
+    },
+    {
+        "hypo": "ferdinand lived in versailles.",
+        "prem": "ferdinand was born at versailles.",
+        "h_pred": "lived in",
+        "p_pred": "was born at",
+        "label": true,
+        "neg_prem": "Ferdinand was not born at Versailles.",
+        "neg_hypo": "Ferdinand did not live in Versailles.",
+        "score": -4.249999999999998
+    },
+    {
+        "hypo": "the emperor had been forced into the war.",
+        "prem": "the emperor fought in a war.",
+        "h_pred": "had been forced into",
+        "p_pred": "fought in a",
+        "label": false,
+        "neg_prem": "The emperor did not fight in a war.",
+        "neg_hypo": "The emperor had not been forced into the war.",
+        "score": 2.9499999999999997
+    },
+    {
+        "hypo": "archaeology is the study of life.",
+        "prem": "archaeology studies life.",
+        "h_pred": "is the study of",
+        "p_pred": "studies",
+        "label": false,
+        "neg_prem": "Archaeology does not study life.",
+        "neg_hypo": "Archaeology is not the study of life.",
+        "score": 8.149999999999999
+    },
+    {
+        "hypo": "plato was an student of mathematics.",
+        "prem": "plato discussed mathematics.",
+        "h_pred": "was an student of",
+        "p_pred": "discussed",
+        "label": false,
+        "neg_prem": "Plato did not discuss mathematics.",
+        "neg_hypo": "Plato was not a student of mathematics.",
+        "score": 7.139999999999999
+    },
+    {
+        "hypo": "houston is in texas.",
+        "prem": "houston is the city in texas.",
+        "h_pred": "",
+        "p_pred": "the city",
+        "label": true,
+        "neg_prem": "Houston is not the city in Texas.",
+        "neg_hypo": "Houston is not in Texas.",
+        "score": -40.400000000000006
+    },
+    {
+        "hypo": "opium relieves pain.",
+        "prem": "opium is required on account of the pain.",
+        "h_pred": "relieves",
+        "p_pred": "is required on account of the",
+        "label": true,
+        "neg_prem": "Opium is not required on account of the pain.",
+        "neg_hypo": "Opium does not relieve pain.",
+        "score": -6.1824
+    },
+    {
+        "hypo": "green monkeys lives in africa.",
+        "prem": "green monkeys came from africa.",
+        "h_pred": "lives in",
+        "p_pred": "came from",
+        "label": true,
+        "neg_prem": "Green monkeys did not come from Africa.",
+        "neg_hypo": "Green monkeys do not live in Africa.",
+        "score": -15.700000000000001
+    },
+    {
+        "hypo": "a whiskey relieves pain.",
+        "prem": "a whiskey would stop the pain.",
+        "h_pred": "relieves",
+        "p_pred": "would stop the",
+        "label": true,
+        "neg_prem": "a whiskey would not stop the pain.",
+        "neg_hypo": "a whiskey does not relieve pain.",
+        "score": -27.922399999999996
+    },
+    {
+        "hypo": "the lamb was eaten with bread.",
+        "prem": "the lamb is served with bread.",
+        "h_pred": "was eaten",
+        "p_pred": "is served",
+        "label": true,
+        "neg_prem": "The lamb is not served with bread.",
+        "neg_hypo": "the lamb was not eaten with bread.",
+        "score": -5.07
+    },
+    {
+        "hypo": "houston is the city in texas.",
+        "prem": "houston is in texas.",
+        "h_pred": "the city",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "Houston is not in Texas.",
+        "neg_hypo": "Houston is not the city in Texas.",
+        "score": 40.400000000000006
+    },
+    {
+        "hypo": "maryland was part of the confederacy.",
+        "prem": "maryland would go to the confederacy.",
+        "h_pred": "was part of",
+        "p_pred": "would go to",
+        "label": true,
+        "neg_prem": "Maryland would not go to the confederacy.",
+        "neg_hypo": "Maryland was not part of the Confederacy.",
+        "score": -12.299999999999997
+    },
+    {
+        "hypo": "this method was used by newton.",
+        "prem": "this method was studied by newton.",
+        "h_pred": "used",
+        "p_pred": "studied",
+        "label": false,
+        "neg_prem": "This method was not studied by Newton.",
+        "neg_hypo": "This method was not used by Newton.",
+        "score": 60.010000000000005
+    },
+    {
+        "hypo": "albert edward was born at buckingham palace.",
+        "prem": "albert edward lived in buckingham palace.",
+        "h_pred": "was born at",
+        "p_pred": "lived in",
+        "label": false,
+        "neg_prem": "Albert Edward did not live in Buckingham Palace.",
+        "neg_hypo": "Albert Edward was not born at Buckingham Palace.",
+        "score": 4.249999999999998
+    },
+    {
+        "hypo": "the opossum lives and has a fur.",
+        "prem": "the opossum has fur.",
+        "h_pred": "lives and a",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "The opossum does not have fur.",
+        "neg_hypo": "The opossum does not live and does not have a fur.",
+        "score": 13.600000000000001
+    },
+    {
+        "hypo": "the nile flows through africa.",
+        "prem": "the nile is the river of africa.",
+        "h_pred": "flows through",
+        "p_pred": "is river of",
+        "label": true,
+        "neg_prem": "The Nile is not the river of Africa.",
+        "neg_hypo": "The Nile does not flow through Africa.",
+        "score": -9.24
+    },
+    {
+        "hypo": "the instrument measures current.",
+        "prem": "the instrument can be used to compare currents.",
+        "h_pred": "measures current.",
+        "p_pred": "can be used to compare currents.",
+        "label": false,
+        "neg_prem": "The instrument can not be used to compare currents.",
+        "neg_hypo": "The instrument does not measure current.",
+        "score": 3.365
+    },
+    {
+        "hypo": "endorphins kill pain.",
+        "prem": "endorphins helps reduce pain.",
+        "h_pred": "kill",
+        "p_pred": "helps reduce",
+        "label": false,
+        "neg_prem": "Endorphins can not help reduce pain.",
+        "neg_hypo": "Endorphins do not kill pain.",
+        "score": 9.58
+    },
+    {
+        "hypo": "the gypsies came from india.",
+        "prem": "the gypsies is spoken in india.",
+        "h_pred": "came from",
+        "p_pred": "is spoken in",
+        "label": false,
+        "neg_prem": "The gypsies are not spoken in India.",
+        "neg_hypo": "The gypsies did not come from India.",
+        "score": 26.59
+    },
+    {
+        "hypo": "walt disney drew mickey mouse.",
+        "prem": "walt disney created mickey mouse.",
+        "h_pred": "drew",
+        "p_pred": "created",
+        "label": true,
+        "neg_prem": "Walt Disney did not create Mickey Mouse.",
+        "neg_hypo": "Walt Disney did not draw Mickey Mouse.",
+        "score": -8.32
+    },
+    {
+        "hypo": "descartes was greatest in mathematics.",
+        "prem": "descartes discussed mathematics.",
+        "h_pred": "was greatest in",
+        "p_pred": "discussed",
+        "label": false,
+        "neg_prem": "Descartes did not discuss mathematics.",
+        "neg_hypo": "Descartes was not greatest in mathematics.",
+        "score": 3.27
+    },
+    {
+        "hypo": "sanskrit is spoken in india.",
+        "prem": "sanskrit was the language in india.",
+        "h_pred": "is spoken",
+        "p_pred": "was the language",
+        "label": true,
+        "neg_prem": "Sanskrit was not the language in India.",
+        "neg_hypo": "Sanskrit is not spoken in India.",
+        "score": -9.49
+    },
+    {
+        "hypo": "the dragon is depicted with claws.",
+        "prem": "the dragon has claws.",
+        "h_pred": "is depicted with",
+        "p_pred": "has",
+        "label": true,
+        "neg_prem": "The dragon does not have claws.",
+        "neg_hypo": "The dragon is not depicted with claws.",
+        "score": -233.412
+    },
+    {
+        "hypo": "venice took the lead with greece.",
+        "prem": "venice had influence in greece.",
+        "h_pred": "took the lead with",
+        "p_pred": "had influence in",
+        "label": false,
+        "neg_prem": "Venice did not have influence in Greece.",
+        "neg_hypo": "Venice did not take the lead with Greece.",
+        "score": 4.660000000000002
+    },
+    {
+        "hypo": "president wilson arrived in paris.",
+        "prem": "president wilson traveled to paris.",
+        "h_pred": "arrived in",
+        "p_pred": "traveled to",
+        "label": false,
+        "neg_prem": "President Wilson did not travel to Paris.",
+        "neg_hypo": "President Wilson did not arrive in Paris.",
+        "score": 5.0
+    },
+    {
+        "hypo": "cortez is at the head of a band.",
+        "prem": "cortez plays in a band.",
+        "h_pred": "is at the head of",
+        "p_pred": "plays in",
+        "label": false,
+        "neg_prem": "Cortez does not play in a band.",
+        "neg_hypo": "Cortez is not at the head of a band.",
+        "score": 22.210000000000008
+    },
+    {
+        "hypo": "the opossum has fur.",
+        "prem": "the opossum lives and has a fur.",
+        "h_pred": "",
+        "p_pred": "lives and a",
+        "label": true,
+        "neg_prem": "The opossum does not live and has no fur.",
+        "neg_hypo": "The opossum does not have fur.",
+        "score": -13.600000000000001
+    },
+    {
+        "hypo": "madison became a saint.",
+        "prem": "madison will pass for a saint.",
+        "h_pred": "became",
+        "p_pred": "will pass for",
+        "label": false,
+        "neg_prem": "Madison will not pass for a saint.",
+        "neg_hypo": "Madison did not become a saint.",
+        "score": 3.400000000000002
+    },
+    {
+        "hypo": "domestic cattle is native to america.",
+        "prem": "domestic cattle may have existed in america.",
+        "h_pred": "is native to",
+        "p_pred": "may have existed in",
+        "label": false,
+        "neg_prem": "Domestic cattle did not exist in America.",
+        "neg_hypo": "Domestic cattle is not native to America.",
+        "score": 2.97
+    },
+    {
+        "hypo": "a small moth has wings.",
+        "prem": "a small moth has spots on the wings.",
+        "h_pred": "",
+        "p_pred": "spots on the",
+        "label": true,
+        "neg_prem": "a small moth does not have spots on the wings.",
+        "neg_hypo": "a small moth does not have wings.",
+        "score": -2.13
+    },
+    {
+        "hypo": "pain can be treated with nsaids.",
+        "prem": "pain is treated with nsaids.",
+        "h_pred": "can be",
+        "p_pred": "is",
+        "label": true,
+        "neg_prem": "Pain is not treated with nsaids.",
+        "neg_hypo": "Pain can not be treated with nsaids.",
+        "score": -974.0
+    },
+    {
+        "hypo": "green monkeys came from africa.",
+        "prem": "green monkeys lives in africa.",
+        "h_pred": "came from",
+        "p_pred": "lives in",
+        "label": false,
+        "neg_prem": "Green monkeys do not live in Africa.",
+        "neg_hypo": "Green monkeys did not come from Africa.",
+        "score": 15.700000000000001
+    },
+    {
+        "hypo": "liege is the port in europe.",
+        "prem": "liege is in europe.",
+        "h_pred": "the port",
+        "p_pred": "",
+        "label": false,
+        "neg_prem": "Liege is not in Europe.",
+        "neg_hypo": "Liege is not the port in Europe.",
+        "score": 5.36
+    },
+    {
+        "hypo": "the german language has official status in switzerland.",
+        "prem": "the german language prevails in switzerland.",
+        "h_pred": "has official status",
+        "p_pred": "prevails",
+        "label": false,
+        "neg_prem": "The German language does not prevail in Switzerland.",
+        "neg_hypo": "The German language does not have official status in Switzerland.",
+        "score": 4.606999999999999
+    }
+]

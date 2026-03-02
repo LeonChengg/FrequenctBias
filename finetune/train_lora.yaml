@@ -23,7 +23,7 @@ dataloader_num_workers: 4
 ### output
 output_dir: /home/liang/FrequenctBias/finetune/saves/llama3.2-1b-lora-EG
 logging_steps: 50
-save_steps: 500
+save_steps: 1000
 plot_loss: true
 overwrite_output_dir: true
 save_only_model: false

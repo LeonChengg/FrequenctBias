@@ -70,7 +70,7 @@ class GRPOConfig:
     clip_eps: float = 0.2        # PPO clipping ε
 
     # Training
-    num_epochs: int = 1
+    num_epochs: int = 5
     batch_size: int = 4          # prompts per step (× G = total sequences)
     gradient_accumulation_steps: int = 4
     learning_rate: float = 5e-7
@@ -80,7 +80,7 @@ class GRPOConfig:
     # Output
     output_dir: str = "saves/llama3.2-1b-grpo-EG"
     logging_steps: int = 10
-    save_steps: int = 200
+    save_steps: int = 1000
     seed: int = 42
 
 

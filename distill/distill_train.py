@@ -79,7 +79,7 @@ class DistillConfig:
     # Output
     output_dir: str = "saves/llama3.2-1b-distill-EG"
     logging_steps: int = 50
-    save_steps: int = 500
+    save_steps: int = 1000
     seed: int = 42
 
 
